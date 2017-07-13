@@ -1,3 +1,6 @@
+#sauce
+#https://www.modmypi.com/blog/ds18b20-one-wire-digital-temperature-sensor-and-the-raspberry-pi
+
 import os
 import time
 
