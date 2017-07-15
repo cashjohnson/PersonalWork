@@ -17,10 +17,10 @@ for j in range(0,20):
     for i in outputList:
         GPIO.output(i,GPIO.LOW)
         print("{}:LOW".format(i))
-        sleep(0.5)
+        sleep(0.03)
     for i in outputList:
         GPIO.output(i,GPIO.HIGH)
         print ("{}:HIGH".format(i))
-        sleep(0.5)
+        sleep(0.03)
 
 GPIO.cleanup()
