@@ -6,7 +6,7 @@ try:
 except RuntimeError:
 	print 'Error importing RPi.GPIO'
 
-GPIO.setMode(GPIO.BOARD)
+GPIO.setmode(GPIO.BOARD)
 
 # TODO: assign the pins correctly to the board pins
 #Pin mapping from Arduino to the ATmega DIP28 if you need it
@@ -30,6 +30,8 @@ outputList = [digit1,digit2,digit3,digit4]#,segA,segB,segC,segD,segE,segF,segG,D
 
 GPIO.setup(outputList,GPIO.OUT)
 
+
+
 for j in range(0,4):
     print 'Cycle:' + repr(j)
     for i in outputList:
@@ -38,7 +40,7 @@ for j in range(0,4):
         sleep(0.5)
     for i in outputList:
         GPIO.output(i,GPIO.HIGH)
-        print repr(i) + ':LOW'
+        print repr(i) + ':HIGH'
         sleep(0.5)
 
 GPIO.cleanup()
