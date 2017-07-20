@@ -41,7 +41,7 @@ GPIO.setup(outputList,GPIO.OUT)
 # GPIO.cleanup()
 
 def displayString(toDisplay):
-	DISPLAY_BRIGHTNESS = 0.000001
+	DISPLAY_BRIGHTNESS = 0.00001
 	DIGIT_ON = GPIO.HIGH
         DIGIT_OFF = GPIO.LOW
     
@@ -192,8 +192,12 @@ def lightNumber(numberToDisplay):
       GPIO.output(DP, SEGMENT_ON)
 
 counter = 0
-while counter < 50:
-	displayString('88.88')
+toDisplay = 11.11
+while counter < 100:
+        thing = '%.2f' % toDisplay
+	displayString(thing)
 	counter = counter + 1
+	toDisplay = toDisplay + 0.01
+	print toDisplay
 
 GPIO.cleanup()
