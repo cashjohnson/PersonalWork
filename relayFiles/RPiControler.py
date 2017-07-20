@@ -12,15 +12,28 @@ outputList = [36,37,38,40]
 
 GPIO.setup(outputList,GPIO.OUT)
 
-for j in range(0,20):
-    print("{} cycle".format(j))
+# for j in range(0,20):
+#     print("{} cycle".format(j))
+#     for i in outputList:
+#         GPIO.output(i,GPIO.LOW)
+#         print("{}:LOW".format(i))
+#         sleep(0.03)
+#     for i in outputList:
+#         GPIO.output(i,GPIO.HIGH)
+#         print ("{}:HIGH".format(i))
+#         sleep(0.03)
+
+# GPIO.cleanup()
+
+def RPiControlDemo():
+    SLEEP_TIME = .1
+    for j in range(0,20):
+    print repr(j) + ':cycle'
     for i in outputList:
         GPIO.output(i,GPIO.LOW)
-        print("{}:LOW".format(i))
-        sleep(0.03)
+        print repr(i) + ':LOW'
+        sleep(SLEEP_TIME)
     for i in outputList:
         GPIO.output(i,GPIO.HIGH)
-        print ("{}:HIGH".format(i))
-        sleep(0.03)
-
-GPIO.cleanup()
+        print repr(i) + ':HIGH'
+        sleep(SLEEP_TIME)
