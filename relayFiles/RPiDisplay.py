@@ -41,155 +41,159 @@ GPIO.setup(outputList,GPIO.OUT)
 # GPIO.cleanup()
 
 def displayString(toDisplay):
-	DISPLAY_BRIGHTNESS = 0.01
+	DISPLAY_BRIGHTNESS = 0.000001
 	DIGIT_ON = GPIO.HIGH
-	DIGIT_OFF = GPIO.LOW
+        DIGIT_OFF = GPIO.LOW
     
-    for i in range(0,5):
-        if i==0:
-            digitalWrite(digit1,DIGIT_ON)
-        elif i==1:
-            digitalWrite(digit2, DIGIT_ON)
-        elif i==2:
-            digitalWrite(digit2, DIGIT_ON)
-        elif i==3:
-            digitalWrite(digit3, DIGIT_ON)
-        elif i==4:
-            digitalWrite(digit4, DIGIT_ON)
+        for i in range(0,5):
+                if i==0:
+                        GPIO.output(digit1,DIGIT_ON)
+                elif i==1:
+                        GPIO.output(digit2, DIGIT_ON)
+                elif i==2:
+                    GPIO.output(digit2, DIGIT_ON)
+                elif i==3:
+                    GPIO.output(digit3, DIGIT_ON)
+                elif i==4:
+                    GPIO.output(digit4, DIGIT_ON)
 
-        lightNumber(toDisplay[i])
-        sleep(DISPLAY_BRIGHTNESS)
-        lightNumber('10')
+                lightNumber(toDisplay[i])
+                sleep(DISPLAY_BRIGHTNESS)
+                lightNumber('10')
 
-        digitalWrite(digit1, DIGIT_OFF)
-        digitalWrite(digit2, DIGIT_OFF)
-        digitalWrite(digit3, DIGIT_OFF)
-        digitalWrite(digit4, DIGIT_OFF)
+                GPIO.output(digit1, DIGIT_OFF)
+                GPIO.output(digit2, DIGIT_OFF)
+                GPIO.output(digit3, DIGIT_OFF)
+                GPIO.output(digit4, DIGIT_OFF)
+                sleep(0.005)
 
 def lightNumber(numberToDisplay):
     SEGMENT_ON = GPIO.LOW
     SEGMENT_OFF = GPIO.HIGH
 
     if numberToDisplay=='0':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_ON)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_OFF)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_ON)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_OFF)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='1':
-      digitalWrite(segA, SEGMENT_OFF)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_OFF)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_OFF)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_OFF)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_OFF)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_OFF)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='2':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_OFF)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_ON)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_OFF)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_ON)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='3':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='4':
-      digitalWrite(segA, SEGMENT_OFF)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_OFF)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_OFF)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_OFF)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='5':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_OFF)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_OFF)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='6':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_OFF)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_ON)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_OFF)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_ON)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='7':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_OFF)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_OFF)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_OFF)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_OFF)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='8':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_ON)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_ON)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='9':
-      digitalWrite(segA, SEGMENT_ON)
-      digitalWrite(segB, SEGMENT_ON)
-      digitalWrite(segC, SEGMENT_ON)
-      digitalWrite(segD, SEGMENT_ON)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_ON)
-      digitalWrite(segG, SEGMENT_ON)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_ON)
+      GPIO.output(segB, SEGMENT_ON)
+      GPIO.output(segC, SEGMENT_ON)
+      GPIO.output(segD, SEGMENT_ON)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_ON)
+      GPIO.output(segG, SEGMENT_ON)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='10':
-      digitalWrite(segA, SEGMENT_OFF)
-      digitalWrite(segB, SEGMENT_OFF)
-      digitalWrite(segC, SEGMENT_OFF)
-      digitalWrite(segD, SEGMENT_OFF)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_OFF)
-      digitalWrite(DP, SEGMENT_OFF)
+      GPIO.output(segA, SEGMENT_OFF)
+      GPIO.output(segB, SEGMENT_OFF)
+      GPIO.output(segC, SEGMENT_OFF)
+      GPIO.output(segD, SEGMENT_OFF)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_OFF)
+      GPIO.output(DP, SEGMENT_OFF)
 
     elif numberToDisplay=='.':
-      digitalWrite(segA, SEGMENT_OFF)
-      digitalWrite(segB, SEGMENT_OFF)
-      digitalWrite(segC, SEGMENT_OFF)
-      digitalWrite(segD, SEGMENT_OFF)
-      digitalWrite(segE, SEGMENT_OFF)
-      digitalWrite(segF, SEGMENT_OFF)
-      digitalWrite(segG, SEGMENT_OFF)
-      digitalWrite(DP, SEGMENT_ON)
+      GPIO.output(segA, SEGMENT_OFF)
+      GPIO.output(segB, SEGMENT_OFF)
+      GPIO.output(segC, SEGMENT_OFF)
+      GPIO.output(segD, SEGMENT_OFF)
+      GPIO.output(segE, SEGMENT_OFF)
+      GPIO.output(segF, SEGMENT_OFF)
+      GPIO.output(segG, SEGMENT_OFF)
+      GPIO.output(DP, SEGMENT_ON)
 
+counter = 0
+while counter < 50:
+	displayString('88.88')
+	counter = counter + 1
 
-while true:
-	displayString('12.34')
+GPIO.cleanup()
