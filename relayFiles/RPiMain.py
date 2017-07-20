@@ -7,11 +7,7 @@ except RuntimeError:
     print("Error importing RPi.GPIO")
 import RPiControler
 import RPiDisplay
-
-os.system('modprobe w1-gpio')
-os.system('modprobe w1-therm')
-
-temp_sensor = '/sys/bus/w1/devices/28-000008aa22ab/w1_slave'
+import tempSensor
 
 GPIO.setmode(GPIO.BOARD)
 
@@ -38,9 +34,22 @@ relayList = [rel1,rel2,rel3,rel4]
 GPIO.setup(relayList,GPIO.OUT)
 
 counter = 0
-while counter < 100:
-	displayString('88.88')
-	counter = counter + 1
-RPiControlDemo()
-
+number = tempSensor.read_temp()
+relayLow = True
+RPiControler.relayControl(rel1,'OFF')
+while True:
+        if counter < 100:
+            thing = '%.2f' % number
+            RPiDisplay.displayString(thing)
+            counter = counter + 1
+        else:
+            counter = 0
+            number = tempSensor.read_temp()
+            print repr(number)
+##            if relayLow == True:
+##                RPiControler.relayControl(rel1,'ON')
+##                relayLow = False
+##            elif relayLow == False:
+##                RPiControler.relayControl(rel1,'OFF')
+##                relayLow = True
 GPIO.cleanup()

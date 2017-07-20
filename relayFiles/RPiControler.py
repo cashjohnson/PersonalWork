@@ -27,13 +27,19 @@ GPIO.setup(outputList,GPIO.OUT)
 
 def RPiControlDemo():
     SLEEP_TIME = .1
-    for j in range(0,20):
-    print repr(j) + ':cycle'
-    for i in outputList:
-        GPIO.output(i,GPIO.LOW)
-        print repr(i) + ':LOW'
-        sleep(SLEEP_TIME)
-    for i in outputList:
-        GPIO.output(i,GPIO.HIGH)
-        print repr(i) + ':HIGH'
-        sleep(SLEEP_TIME)
+    for j in range(0,2):
+        print repr(j) + ':cycle'
+        for i in outputList:
+            GPIO.output(i,GPIO.LOW)
+            print repr(i) + ':LOW'
+            sleep(SLEEP_TIME)
+        for i in outputList:
+            GPIO.output(i,GPIO.HIGH)
+            print repr(i) + ':HIGH'
+            sleep(SLEEP_TIME)
+
+def relayControl(relayNumber, relayState):
+    if relayState == 'ON':
+        GPIO.output(relayNumber,GPIO.HIGH)
+    elif relayState == 'OFF':
+        GPIO.output(relayNumber,GPIO.LOW)

@@ -27,21 +27,8 @@ outputList = [digit1,digit2,digit3,digit4,segA,segB,segC,segD,segE,segF,segG,DP]
 
 GPIO.setup(outputList,GPIO.OUT)
 
-# for j in range(0,4):
-#     print 'Cycle:' + repr(j)
-#     for i in outputList:
-#         GPIO.output(i,GPIO.LOW)
-#         print repr(i) + ':LOW'
-#         sleep(0.5)
-#     for i in outputList:
-#         GPIO.output(i,GPIO.HIGH)
-#         print repr(i) + ':HIGH'
-#         sleep(0.5)
-
-# GPIO.cleanup()
-
 def displayString(toDisplay):
-	DISPLAY_BRIGHTNESS = 0.00001
+	DISPLAY_BRIGHTNESS = 0.0001
 	DIGIT_ON = GPIO.HIGH
         DIGIT_OFF = GPIO.LOW
     
@@ -65,7 +52,7 @@ def displayString(toDisplay):
                 GPIO.output(digit2, DIGIT_OFF)
                 GPIO.output(digit3, DIGIT_OFF)
                 GPIO.output(digit4, DIGIT_OFF)
-                sleep(0.005)
+                sleep(0.001-(DISPLAY_BRIGHTNESS*5))
 
 def lightNumber(numberToDisplay):
     SEGMENT_ON = GPIO.LOW
@@ -191,13 +178,13 @@ def lightNumber(numberToDisplay):
       GPIO.output(segG, SEGMENT_OFF)
       GPIO.output(DP, SEGMENT_ON)
 
-counter = 0
-toDisplay = 11.11
-while counter < 100:
-        thing = '%.2f' % toDisplay
-	displayString(thing)
-	counter = counter + 1
-	toDisplay = toDisplay + 0.01
-	print toDisplay
-
-GPIO.cleanup()
+if __name__ == '__main__':
+        counter = 0
+        toDisplay = 11.11
+        while counter < 100:
+                thing = '%.2f' % toDisplay
+                displayString(thing)
+                counter = counter + 1
+                toDisplay = toDisplay + 0.01
+                print toDisplay
+        GPIO.cleanup()
