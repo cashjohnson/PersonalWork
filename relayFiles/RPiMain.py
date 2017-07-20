@@ -45,23 +45,25 @@ rel15 = 22
 relayList = [rel1,rel2,rel3,rel4,rel5,rel6,rel7,rel8,rel9,rel10,rel11,rel12,rel13,rel14,rel15]
 GPIO.setup(relayList,GPIO.OUT)
 
-counter = 0
-number = tempSensor.read_temp()
-relayLow = True
-RPiControler.relayControl(rel1,'OFF')
-while True:
-        if counter < 100:
-            thing = '%.2f' % number
-            RPiDisplay.displayString(thing)
-            counter = counter + 1
-        else:
-            counter = 0
-            number = tempSensor.read_temp()
-            print repr(number)
-##            if relayLow == True:
-##                RPiControler.relayControl(rel1,'ON')
-##                relayLow = False
-##            elif relayLow == False:
-##                RPiControler.relayControl(rel1,'OFF')
-##                relayLow = True
-GPIO.cleanup()
+
+if __name__ == '__main__':
+	counter = 0
+	number = tempSensor.read_temp()
+	relayLow = True
+	RPiControler.relayControl(rel1,'OFF')
+	while True:
+	        if counter < 100:
+	            thing = '%.2f' % number
+	            RPiDisplay.displayString(thing)
+	            counter = counter + 1
+	        else:
+	            counter = 0
+	            number = tempSensor.read_temp()
+	            print repr(number)
+	##            if relayLow == True:
+	##                RPiControler.relayControl(rel1,'ON')
+	##                relayLow = False
+	##            elif relayLow == False:
+	##                RPiControler.relayControl(rel1,'OFF')
+	##                relayLow = True
+	GPIO.cleanup()
