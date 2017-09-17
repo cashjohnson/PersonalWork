@@ -11,6 +11,14 @@ int main(int argc, char *argv[]){
 		"Washington", "Texas"
 	};
 
+	printf("\n\n\n\n\n");
+	int j = 0;
+	while (states[1][j] != '\0'){
+		char letter = states[1][j];
+		printf("%c\n", letter);
+		j++;
+	}
+
 	for(i = 1; i < argc; i++) {
 		printf("arg %d: %s\n", i, argv[i]);
 	}
