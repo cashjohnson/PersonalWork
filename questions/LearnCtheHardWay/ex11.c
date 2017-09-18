@@ -43,5 +43,7 @@ int main(int argc, char *argv[]){
 		printf("state %d: %s\n", i, states[i]);
 	}
 
+	printf("\n\n\n\n");
+
 	return 0;
 }
