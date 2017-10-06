@@ -22,8 +22,8 @@ segD = 15 #Display pin 3
 segE = 16 #Display pin 5
 segF = 18 #Display pin 11
 segG = 19 #Display pin 15
-DP = 21 #Display pin 7
-displayList = [digit1,digit2,digit3,digit4,segA,segB,segC,segD,segE,segF,segG,DP]
+#DP = 21 #Display pin 7
+displayList = [digit1,digit2,digit3,digit4,segA,segB,segC,segD,segE,segF,segG]
 GPIO.setup(displayList,GPIO.OUT)
 
 rel1 = 40
@@ -41,8 +41,8 @@ rel12 = 26
 rel13 = 24
 rel14 = 23
 rel15 = 22
-# rel16
-relayList = [rel1,rel2,rel3,rel4,rel5,rel6,rel7,rel8,rel9,rel10,rel11,rel12,rel13,rel14,rel15]
+rel16 = 21
+relayList = [rel1,rel2,rel3,rel4,rel5,rel6,rel7,rel8,rel9,rel10,rel11,rel12,rel13,rel14,rel15,rel16]
 GPIO.setup(relayList,GPIO.OUT)
 
 

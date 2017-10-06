@@ -8,22 +8,26 @@ except RuntimeError:
 
 GPIO.setmode(GPIO.BOARD)
 
-outputList = [36,37,38,40]
+rel1 = 40
+rel2 = 38
+rel3 = 37
+rel4 = 36
+rel5 = 35
+rel6 = 33
+rel7 = 32
+rel8 = 31
+rel9 = 29
+rel10 = 28
+rel11 = 27
+rel12 = 26
+rel13 = 24
+rel14 = 23
+rel15 = 22
+rel16 = 21
+relayList = [rel1,rel2,rel3,rel4,rel5,rel6,rel7,rel8,rel9,rel10,rel11,rel12,rel13,rel14,rel15,rel16]
+GPIO.setup(relayList,GPIO.OUT)
 
-GPIO.setup(outputList,GPIO.OUT)
 
-# for j in range(0,20):
-#     print("{} cycle".format(j))
-#     for i in outputList:
-#         GPIO.output(i,GPIO.LOW)
-#         print("{}:LOW".format(i))
-#         sleep(0.03)
-#     for i in outputList:
-#         GPIO.output(i,GPIO.HIGH)
-#         print ("{}:HIGH".format(i))
-#         sleep(0.03)
-
-# GPIO.cleanup()
 
 def RPiControlDemo():
     SLEEP_TIME = .1
