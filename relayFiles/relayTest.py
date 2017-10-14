@@ -47,14 +47,15 @@ GPIO.setup(relayList,GPIO.OUT)
 
 
 if __name__ == '__main__':
-	counter = 0
-	for i in range(0,15):
-		RPiControler.relayControl(relayList[i],'OFF')
-	# while True:
-	for i in range(0,15):
-		RPiControler.relayControl(relayList[i],'ON')
-		sleep(.3)
-	for i in range(0,15):
-		RPiControler.relayControl(relayList[i],'OFF')
-		sleep(.3)
+	RPiControler.RPiControlDemo()
+	# counter = 0
+	# for i in range(0,15):
+	# 	RPiControler.relayControl(relayList[i],'OFF')
+	# # while True:
+	# for i in range(0,15):
+	# 	RPiControler.relayControl(relayList[i],'ON')
+	# 	sleep(.3)
+	# for i in range(0,15):
+	# 	RPiControler.relayControl(relayList[i],'OFF')
+	# 	sleep(.3)
 	GPIO.cleanup()
