@@ -1,5 +1,16 @@
-#sauce
+#Temperature sensor
+#https://www.sparkfun.com/products/11050
+
+#RPi code sauce
 #https://www.modmypi.com/blog/ds18b20-one-wire-digital-temperature-sensor-and-the-raspberry-pi
+
+/*
+Use: read_temp() returns temperature in F
+
+>>print(read_temp())
+70
+
+*/
 
 import os
 import time
