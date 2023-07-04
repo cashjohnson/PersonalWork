@@ -17,6 +17,9 @@
 		<Item Name="9PalindromeNumber" Type="Folder" URL="../9PalindromeNumber">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="13RomanToInteger" Type="Folder" URL="../13RomanToInteger">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
