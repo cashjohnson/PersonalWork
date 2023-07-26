@@ -56,10 +56,18 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test My Singleton Module API.vi" Type="VI" URL="../Libraries/My Singleton Module/Test My Singleton Module API.vi"/>
 			<Item Name="Test My Cloneable Module API.vi" Type="VI" URL="../Libraries/My Cloneable Module/Test My Cloneable Module API.vi"/>
+			<Item Name="Test Chart API.vi" Type="VI" URL="../Libraries/Chart/Test Chart API.vi"/>
+			<Item Name="Test Settings API.vi" Type="VI" URL="../Libraries/Settings/Test Settings API.vi"/>
+			<Item Name="Test DAQ API.vi" Type="VI" URL="../Libraries/DAQ/Test DAQ API.vi"/>
+			<Item Name="Test GUI API.vi" Type="VI" URL="../Libraries/GUI/Test GUI API.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="My Singleton Module.lvlib" Type="Library" URL="../Libraries/My Singleton Module/My Singleton Module.lvlib"/>
 			<Item Name="My Cloneable Module.lvlib" Type="Library" URL="../Libraries/My Cloneable Module/My Cloneable Module.lvlib"/>
+			<Item Name="Chart.lvlib" Type="Library" URL="../Libraries/Chart/Chart.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
+			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
+			<Item Name="GUI.lvlib" Type="Library" URL="../Libraries/GUI/GUI.lvlib"/>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
