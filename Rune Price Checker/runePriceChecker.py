@@ -1,25 +1,4 @@
-# Project in Python2
-# Source: https://stackoverflow.com/questions/12965203/how-to-get-json-from-webpage-into-python-script
-# Source: http://runescape.wikia.com/wiki/Application_programming_interface
-
-# Problem: I have recently been playing around with Runescape again (just for nostalgia's sake) and ran
-# into the problem that I was short on money and wanted an easy way to make it! According to this link
-# http://runescape.wikia.com/wiki/Money_making_guide/Buying_runes I would be able to make a nice sum in a short
-# amount of time depending on the market. Being lazy and assuming I might do this multiple times I decided to make
-# a tool that would tell me where/which runes to buy from vendors and sell on the Grand Exchange (a central 
-# auction house in the game).
-
-# items
-# print(data)
-# print(data["items"][0]["name"])
-# print()
-# print(data["items"][0]["current"]["price"])
-
-# detail
-# print(data["item"]["current"])
-
-import json
-import urllib
+from runeClass import *
 
 urlAirRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=a&page=1'
 urlBodyRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=b&page=1'
@@ -36,71 +15,61 @@ urlAstralRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.j
 urlBloodRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=b&page=1'
 urlSoulRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=s&page=1'
 
-class Runes:
-    apiUrl = ""
-    apiIndex = ""
-    currentPrice = 0
-    name = ""
 
-    def __init__(self, url, apiIndex):
-        self.apiUrl = url
-        self.apiIndex = apiIndex
-        response = urllib.urlopen(self.apiUrl)
-        data = json.loads(response.read())
-        self.name = data["items"][self.apiIndex]["name"]
-        self.currentPrice = data["items"][self.apiIndex]["current"]["price"]
-
-    def extractValues(self):
-        response = urllib.urlopen(self.apiUrl)
-        data = json.loads(response.read())
-        self.name = data["items"][self.apiIndex]["name"]
-        self.currentPrice = data["items"][self.apiIndex]["current"]["price"]  
-
-    def showValues(self):
-        print('This is %s' % self.name)
-        print('The apiIndex = %s' % self.apiIndex)
-        print('The current price = %d' % self.currentPrice)
-        print('')
-
-def standardPriceCheck():
+def standard_price_check():
     print("")
-    if (fireRune.currentPrice > 17):
+    if fireRune.currentPrice > 17:
         print("Buy Fire Runes")
-    if (waterRune.currentPrice > 17):
+    if waterRune.currentPrice > 17:
         print("Buy Water Runes")
-    if (airRune.currentPrice > 17):
+    if airRune.currentPrice > 17:
         print("Buy Air Runes")
-    if (earthRune.currentPrice > 17):
+    if earthRune.currentPrice > 17:
         print("Buy Earth Runes")
-    if (mindRune.currentPrice > 17):
+    if mindRune.currentPrice > 17:
         print("Buy Mind Runes")
-    if (bodyRune.currentPrice > 16):
+    if bodyRune.currentPrice > 16:
         print("Buy Body Runes")
-    if (chaosRune.currentPrice > 140):
+    if chaosRune.currentPrice > 140:
         print("Buy Chaos Rune")
-    if (deathRune.currentPrice > 310):
+    if deathRune.currentPrice > 310:
         print("Buy Death Rune")
     print("")
-    raw_input("Press Enter to continue...")
+    input("Press Enter to continue...")
     print("")
 
-print("Downloading Values from Runescape API!")
 
+print("Downloading values from Runescape API!")
 
-airRune = Runes(urlAirRune, 0)
-bodyRune = Runes(urlBodyRune, 2)
-earthRune = Runes(urlEarthRune, 0)
-fireRune = Runes(urlFireRune, 1)
-waterRune = Runes(urlWaterRune, 1)
-mindRune = Runes(urlMindRune, 1)
-cosmicRune = Runes(urlCosmicRune, 3)
-chaosRune = Runes(urlChaosRune, 2)
-natureRune = Runes(urlNatureRune, 0)
-lawRune = Runes(urlLawRune, 2)
-deathRune = Runes(urlDeathRune, 2)
-astralRune = Runes(urlAstralRune, 3)
-bloodRune = Runes(urlBloodRune, 1)
-soulRune = Runes(urlSoulRune, 3)
+print('0/13')
+airRune = Runes(urlAirRune, 'Air rune')
+print('1/14')
+bodyRune = Runes(urlBodyRune, 'Body rune')
+print('2/14')
+earthRune = Runes(urlEarthRune, 'Earth rune')
+print('3/14')
+fireRune = Runes(urlFireRune, 'Fire rune')
+print('4/14')
+waterRune = Runes(urlWaterRune, 'Water rune')
+print('5/14')
+mindRune = Runes(urlMindRune, 'Mind rune')
+print('6/14')
+cosmicRune = Runes(urlCosmicRune, 'Cosmic rune')
+print('7/14')
+chaosRune = Runes(urlChaosRune, 'Chaos rune')
+print('8/14')
+natureRune = Runes(urlNatureRune, 'Nature rune')
+print('9/14')
+lawRune = Runes(urlLawRune, 'Law rune')
+print('10/14')
+deathRune = Runes(urlDeathRune, 'Death rune')
+print('11/14')
+astralRune = Runes(urlAstralRune, 'Astral rune')
+print('12/14')
+bloodRune = Runes(urlBloodRune, 'Blood rune')
+print('13/14')
+soulRune = Runes(urlSoulRune, 'Soul rune')
+print('14/14')
 
 # airRune.showValues()
 # bodyRune.showValues()
@@ -116,70 +85,77 @@ soulRune = Runes(urlSoulRune, 3)
 # astralRune.showValues()
 # bloodRune.showValues()
 # soulRune.showValues()
-print("")
+# print("")
 
-#1 Carwen Essencebinder Magical Runes Shop
+# 1 Carwen Essencebinder Magical Runes Shop
 print("Teleport to the Burthrope lodestone, run east to Carwen Essencebinder Magical Runes Shop")
-standardPriceCheck()
+standard_price_check()
 
-#2 Aubury's Rune Shop
+# 2 Aubury's Rune Shop
 print("Teleport to the Varrock lodestone, run north-east to Aubury's Rune Shop")
-standardPriceCheck()
+standard_price_check()
 
-#3 Ali's Discount Wares
+# 3 Ali's Discount Wares
 # print("Teleport to the Al Kharid lodestone, run north to Ali's Discount Wares")
 # print("Opening Ali's rune shop requires talking to him and selecting the appropriate dialogue options (\"I would like to have a look at your selection of runes.\" and \"Buy elemental runes.\")")
 
-#4 Betty's Magic Emporium
-print("Teleport to the Port Sarim lodestone, run north to Betty's Magic Emporium (located in the northernmost house in Port Sarim)")
-standardPriceCheck()
+# 4 Betty's Magic Emporium
+print(
+    "Teleport to the Port Sarim lodestone, run north to Betty's Magic Emporium (located in the northernmost house in Port Sarim)")
+standard_price_check()
 
-#5 Void Knight Magic Store
-print("From Betty's shop, run south to the second-southernmost pier at the Port Sarim docks, and click on the Squire to travel to the Void Knights' Outpost. From your arrival spot in the outpost run south-west to the Void Knight Magic Store")
-standardPriceCheck()
+# 5 Void Knight Magic Store
+print(
+    "From Betty's shop, run south to the second-southernmost pier at the Port Sarim docks, and click on the Squire to travel to the Void Knights' Outpost. From your arrival spot in the outpost run south-west to the Void Knight Magic Store")
+standard_price_check()
 
-#6 Magic Guild Store - Runes and Staves
-print("Teleport to the Yanille lodestone, run east to the Magic Guild, go up the stairs to the second floor where Magic Guild Store - Runes and Staves is located")
-standardPriceCheck()
+# 6 Magic Guild Store - Runes and Staves
+print(
+    "Teleport to the Yanille lodestone, run east to the Magic Guild, go up the stairs to the second floor where Magic Guild Store - Runes and Staves is located")
+standard_price_check()
 
-#7 Baba Yaga's Magic Shop
-print("Teleport to the Lunar Isle lodestone, click the walking house to the north to enter it and reach Baba Yaga who runs the Baba Yaga's Magic Shop")
-standardPriceCheck()
+# 7 Baba Yaga's Magic Shop
+print(
+    "Teleport to the Lunar Isle lodestone, click the walking house to the north to enter it and reach Baba Yaga who runs the Baba Yaga's Magic Shop")
+standard_price_check()
 
-#8 Ape Atoll
-print("Travel to Ape Atoll either by casting the Teleport to Ape Atoll spell or by other means, equip a greegree, and run to Tutab's Magical Market, located in the southern part of the marketplace")
-standardPriceCheck()
+# 8 Ape Atoll
+print(
+    "Travel to Ape Atoll either by casting the Teleport to Ape Atoll spell or by other means, equip a greegree, and run to Tutab's Magical Market, located in the southern part of the marketplace")
+standard_price_check()
 
-#9 Edgeville
-print("Teleport to the Edgeville lodestone, bank all your items, and run north to the Mage of Zamorak's shop Battle Runes, located in level 5 Wilderness")
-standardPriceCheck()
+# 9 Edgeville
+print(
+    "Teleport to the Edgeville lodestone, bank all your items, and run north to the Mage of Zamorak's shop Battle Runes, located in level 5 Wilderness")
+standard_price_check()
 
-#10 Wilderness! D=
-print("Return to Edgeville and bank all your items. Make sure you have a knife in your tool belt or are carrying a slashing weapon. Head south to the ruined building in Edgeville and travel to level 51 Wilderness by pulling the Edgeville teleport lever. Exit the Deserted Keep you find yourself in by cutting through the cobweb blocking the way north, and head west to a small ruined building north of the Mage Arena. Cut through the two cobwebs blocking the way and pull the lever to be transported to the small cave where Lundail runs his Arena-side Rune Shop. This is a safe area that isn't considered Wilderness and also contains a bank, so you may purchase the runes from the shop in peace.")
+# 10 Wilderness! D=
+print(
+    "Return to Edgeville and bank all your items. Make sure you have a knife in your tool belt or are carrying a slashing weapon. Head south to the ruined building in Edgeville and travel to level 51 Wilderness by pulling the Edgeville teleport lever. Exit the Deserted Keep you find yourself in by cutting through the cobweb blocking the way north, and head west to a small ruined building north of the Mage Arena. Cut through the two cobwebs blocking the way and pull the lever to be transported to the small cave where Lundail runs his Arena-side Rune Shop. This is a safe area that isn't considered Wilderness and also contains a bank, so you may purchase the runes from the shop in peace.")
 print("")
-if (fireRune.currentPrice > 17):
+if fireRune.currentPrice > 17:
     print("Buy Fire Runes")
-if (waterRune.currentPrice > 17):
+if waterRune.currentPrice > 17:
     print("Buy Water Runes")
-if (airRune.currentPrice > 17):
+if airRune.currentPrice > 17:
     print("Buy Air Runes")
-if (earthRune.currentPrice > 17):
+if earthRune.currentPrice > 17:
     print("Buy Earth Runes")
-if (mindRune.currentPrice > 17):
+if mindRune.currentPrice > 17:
     print("Buy Mind Runes")
-if (bodyRune.currentPrice > 16):
+if bodyRune.currentPrice > 16:
     print("Buy Body Runes")
-if (natureRune.currentPrice > 372):
+if natureRune.currentPrice > 372:
     print("Buy Nature Rune")
-if (chaosRune.currentPrice > 140):
+if chaosRune.currentPrice > 140:
     print("Buy Chaos Rune")
-if (lawRune.currentPrice > 378):
+if lawRune.currentPrice > 378:
     print("Buy Law Rune")
-if (cosmicRune.currentPrice > 232):
+if cosmicRune.currentPrice > 232:
     print("Buy Cosmic Rune")
-if (deathRune.currentPrice > 310):
+if deathRune.currentPrice > 310:
     print("Buy Death Rune")
 print("")
-raw_input("Press Enter to continue...")
+input("Press Enter to continue...")
 print("")
 print("Go make some bank!")
