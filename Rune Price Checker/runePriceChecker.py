@@ -35,13 +35,35 @@ def standard_price_check():
     if deathRune.currentPrice > 310:
         print("Buy Death Rune")
     print("")
-    input("Press Enter to continue...")
+
+def wildnerness_price_check():
+    print("")
+    if fireRune.currentPrice > 17:
+        print("Buy Fire Runes")
+    if waterRune.currentPrice > 17:
+        print("Buy Water Runes")
+    if airRune.currentPrice > 17:
+        print("Buy Air Runes")
+    if earthRune.currentPrice > 17:
+        print("Buy Earth Runes")
+    if mindRune.currentPrice > 17:
+        print("Buy Mind Runes")
+    if bodyRune.currentPrice > 16:
+        print("Buy Body Runes")
+    if natureRune.currentPrice > 372:
+        print("Buy Nature Rune")
+    if chaosRune.currentPrice > 140:
+        print("Buy Chaos Rune")
+    if lawRune.currentPrice > 378:
+        print("Buy Law Rune")
+    if cosmicRune.currentPrice > 232:
+        print("Buy Cosmic Rune")
+    if deathRune.currentPrice > 310:
+        print("Buy Death Rune")
     print("")
 
-
 print("Downloading values from Runescape API!")
-
-print('0/13')
+print('0/14')
 airRune = Runes(urlAirRune, 'Air rune')
 print('1/14')
 bodyRune = Runes(urlBodyRune, 'Body rune')
@@ -87,75 +109,45 @@ print('14/14')
 # soulRune.showValues()
 # print("")
 
-# 1 Carwen Essencebinder Magical Runes Shop
-print("Teleport to the Burthrope lodestone, run east to Carwen Essencebinder Magical Runes Shop")
 standard_price_check()
+
+# 1 Carwen Essencebinder Magical Runes Shop
+print("Teleport to the Burthrope lodestone, run east to Carwen Essencebinder Magical Runes Shop\n")
 
 # 2 Aubury's Rune Shop
-print("Teleport to the Varrock lodestone, run north-east to Aubury's Rune Shop")
-standard_price_check()
+print("Teleport to the Varrock lodestone, run north-east to Aubury's Rune Shop\n")
 
 # 3 Ali's Discount Wares
-# print("Teleport to the Al Kharid lodestone, run north to Ali's Discount Wares")
-# print("Opening Ali's rune shop requires talking to him and selecting the appropriate dialogue options (\"I would like to have a look at your selection of runes.\" and \"Buy elemental runes.\")")
+print("Teleport to the Al Kharid lodestone, run north to Ali's Discount Wares")
+print("Opening Ali's rune shop requires talking to him and selecting the appropriate dialogue options (\"I would like to have a look at your selection of runes.\" and \"Buy elemental runes.\"\n)")
 
 # 4 Betty's Magic Emporium
 print(
-    "Teleport to the Port Sarim lodestone, run north to Betty's Magic Emporium (located in the northernmost house in Port Sarim)")
-standard_price_check()
+    "Teleport to the Port Sarim lodestone, run north to Betty's Magic Emporium (located in the northernmost house in Port Sarim)\n")
 
 # 5 Void Knight Magic Store
 print(
-    "From Betty's shop, run south to the second-southernmost pier at the Port Sarim docks, and click on the Squire to travel to the Void Knights' Outpost. From your arrival spot in the outpost run south-west to the Void Knight Magic Store")
-standard_price_check()
+    "From Betty's shop, run south to the second-southernmost pier at the Port Sarim docks, and click on the Squire to travel to the Void Knights' Outpost. From your arrival spot in the outpost run south-west to the Void Knight Magic Store\n")
 
 # 6 Magic Guild Store - Runes and Staves
 print(
-    "Teleport to the Yanille lodestone, run east to the Magic Guild, go up the stairs to the second floor where Magic Guild Store - Runes and Staves is located")
-standard_price_check()
+    "Teleport to the Yanille lodestone, run east to the Magic Guild, go up the stairs to the second floor where Magic Guild Store - Runes and Staves is located\n")
 
 # 7 Baba Yaga's Magic Shop
 print(
-    "Teleport to the Lunar Isle lodestone, click the walking house to the north to enter it and reach Baba Yaga who runs the Baba Yaga's Magic Shop")
-standard_price_check()
+    "Teleport to the Lunar Isle lodestone, click the walking house to the north to enter it and reach Baba Yaga who runs the Baba Yaga's Magic \n")
 
 # 8 Ape Atoll
 print(
-    "Travel to Ape Atoll either by casting the Teleport to Ape Atoll spell or by other means, equip a greegree, and run to Tutab's Magical Market, located in the southern part of the marketplace")
-standard_price_check()
+    "Travel to Ape Atoll either by casting the Teleport to Ape Atoll spell or by other means, equip a greegree, and run to Tutab's Magical Market, located in the southern part of the marketplace\n")
 
 # 9 Edgeville
 print(
-    "Teleport to the Edgeville lodestone, bank all your items, and run north to the Mage of Zamorak's shop Battle Runes, located in level 5 Wilderness")
-standard_price_check()
+    "Teleport to the Edgeville lodestone, bank all your items, and run north to the Mage of Zamorak's shop Battle Runes, located in level 5 Wilderness\n")
 
 # 10 Wilderness! D=
+wildnerness_price_check()
 print(
-    "Return to Edgeville and bank all your items. Make sure you have a knife in your tool belt or are carrying a slashing weapon. Head south to the ruined building in Edgeville and travel to level 51 Wilderness by pulling the Edgeville teleport lever. Exit the Deserted Keep you find yourself in by cutting through the cobweb blocking the way north, and head west to a small ruined building north of the Mage Arena. Cut through the two cobwebs blocking the way and pull the lever to be transported to the small cave where Lundail runs his Arena-side Rune Shop. This is a safe area that isn't considered Wilderness and also contains a bank, so you may purchase the runes from the shop in peace.")
-print("")
-if fireRune.currentPrice > 17:
-    print("Buy Fire Runes")
-if waterRune.currentPrice > 17:
-    print("Buy Water Runes")
-if airRune.currentPrice > 17:
-    print("Buy Air Runes")
-if earthRune.currentPrice > 17:
-    print("Buy Earth Runes")
-if mindRune.currentPrice > 17:
-    print("Buy Mind Runes")
-if bodyRune.currentPrice > 16:
-    print("Buy Body Runes")
-if natureRune.currentPrice > 372:
-    print("Buy Nature Rune")
-if chaosRune.currentPrice > 140:
-    print("Buy Chaos Rune")
-if lawRune.currentPrice > 378:
-    print("Buy Law Rune")
-if cosmicRune.currentPrice > 232:
-    print("Buy Cosmic Rune")
-if deathRune.currentPrice > 310:
-    print("Buy Death Rune")
-print("")
-input("Press Enter to continue...")
-print("")
+    "Return to Edgeville and bank all your items. Make sure you have a knife in your tool belt or are carrying a slashing weapon. Head south to the ruined building in Edgeville and travel to level 51 Wilderness by pulling the Edgeville teleport lever. Exit the Deserted Keep you find yourself in by cutting through the cobweb blocking the way north, and head west to a small ruined building north of the Mage Arena. Cut through the two cobwebs blocking the way and pull the lever to be transported to the small cave where Lundail runs his Arena-side Rune Shop. This is a safe area that isn't considered Wilderness and also contains a bank, so you may purchase the runes from the shop in peace.\n")
 print("Go make some bank!")
+input()
