@@ -1,6 +1,6 @@
 # This is a problem I found on the internet which caught my eye. If we recoreded the price of a stock
 # at regular intervals and converted it to a string input (which i made up in textInput) where would be the 
-# most money I could make based on the buy and sell price. 
+# most money I could make based on the buy and sWorkC@$hell price.
 
 textInput = "65 12 40 12 56 12 45 78 69 51 68 35 78 18 98 68 48 55 68 78 99 48 78 25 68"#random string of inputs 
 values = textInput.split()#turning the string input into an array for ease of use
