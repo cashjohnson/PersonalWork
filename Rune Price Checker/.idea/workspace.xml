@@ -9,7 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb17adc5-5847-4668-bce8-a69970b96423" name="Changes" comment="Separating some logic out into runeClass.py, moving text into README.md. Adpated program to run in Python">
-      <change beforePath="$PROJECT_DIR$/runePriceChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/runePriceChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
