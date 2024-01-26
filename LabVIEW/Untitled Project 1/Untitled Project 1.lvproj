@@ -66,6 +66,10 @@
 				<Item Name="My Singleton Module setup.vi" Type="VI" URL="../Unit Tests/My Singleton Module/My Singleton Module setup.vi"/>
 				<Item Name="My Singleton Module teardown.vi" Type="VI" URL="../Unit Tests/My Singleton Module/My Singleton Module teardown.vi"/>
 				<Item Name="Test - My Singleton Module - Do Something 1.vi" Type="VI" URL="../Unit Tests/My Singleton Module/Test - My Singleton Module - Do Something 1.vi"/>
+				<Item Name="Test - My Singleton Module - Do Something 1.lvtest" Type="TestItem" URL="../Unit Tests/My Singleton Module/Test - My Singleton Module - Do Something 1.lvtest">
+					<Property Name="utf.test.bind" Type="Str">Test - My Singleton Module - Do Something 1.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">31742869-CF3E-C369-E672-B542881A09F8</Property>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
