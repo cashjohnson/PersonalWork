@@ -1,0 +1,148 @@
+[gd_scene load_steps=5 format=3 uid="uid://dpc3uitldxqoy"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_006rc"]
+[ext_resource type="Texture2D" uid="uid://bbqgub57vrfuu" path="res://Sprites/Player.png" id="2_q1yud"]
+[ext_resource type="PackedScene" uid="uid://doq57gf3emdoh" path="res://coin.tscn" id="3_5psad"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cu3hn"]
+size = Vector2(51, 65)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_006rc")
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_q1yud")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+visible = false
+position = Vector2(-0.5, 15.5)
+shape = SubResource("RectangleShape2D_cu3hn")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Coin" parent="." instance=ExtResource("3_5psad")]
+
+[node name="Coin2" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-42, 151)
+
+[node name="Coin3" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-265, 56)
+
+[node name="Coin4" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-207, -226)
+
+[node name="Coin5" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(232, -150)
+
+[node name="Coin6" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-175, 324)
+
+[node name="Coin7" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-790, 10)
+
+[node name="Coin8" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-560, -289)
+
+[node name="Coin9" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(964, -264)
+
+[node name="Coin10" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(1022, -546)
+
+[node name="Coin11" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(439, -310)
+
+[node name="Coin12" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-379, 452)
+
+[node name="Coin13" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-321, 170)
+
+[node name="Coin14" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-289, 720)
+
+[node name="Coin18" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(336, 294)
+
+[node name="Coin19" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(203, 467)
+
+[node name="Coin20" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-1, 595)
+
+[node name="Coin21" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(57, 313)
+
+[node name="Coin22" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(89, 863)
+
+[node name="Coin23" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(771, 355)
+
+[node name="Coin24" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(638, 528)
+
+[node name="Coin25" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(434, 656)
+
+[node name="Coin26" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(492, 374)
+
+[node name="Coin27" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(524, 924)
+
+[node name="Coin28" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(853, -276)
+
+[node name="Coin29" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(720, -103)
+
+[node name="Coin30" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(516, 25)
+
+[node name="Coin31" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(574, -257)
+
+[node name="Coin32" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(606, 293)
+
+[node name="Coin33" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(304, -707)
+
+[node name="Coin34" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(171, -534)
+
+[node name="Coin35" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-33, -406)
+
+[node name="Coin36" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(25, -688)
+
+[node name="Coin37" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(57, -138)
+
+[node name="Coin38" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-152, -668)
+
+[node name="Coin39" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-285, -495)
+
+[node name="Coin40" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-489, -367)
+
+[node name="Coin41" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-431, -649)
+
+[node name="Coin42" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-399, -99)
+
+[node name="Coin15" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-904, 406)
+
+[node name="Coin17" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(311, 153)
+
+[node name="Coin16" parent="." instance=ExtResource("3_5psad")]
+position = Vector2(-674, 107)
