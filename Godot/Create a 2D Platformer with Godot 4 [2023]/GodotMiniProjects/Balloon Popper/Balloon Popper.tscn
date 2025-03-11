@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjdhbsl4rjujc"]
+
+[ext_resource type="Script" path="res://Balloon Popper/Balloon Manager.gd" id="1_c27kf"]
+[ext_resource type="PackedScene" uid="uid://cojipvsl4folu" path="res://Balloon Popper/balloon.tscn" id="2_vvrsu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xyxrt"]
+font_size = 25
+
+[node name="Main" type="Node3D" node_paths=PackedStringArray("score_text")]
+script = ExtResource("1_c27kf")
+score_text = NodePath("Score Text")
+
+[node name="Balloon" parent="." instance=ExtResource("2_vvrsu")]
+
+[node name="Balloon2" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.37126, 0, 0)
+
+[node name="Balloon3" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.53466, 0, 0)
+
+[node name="Balloon4" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77004, 1.63407, 2.38419e-07)
+
+[node name="Balloon5" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.708266, 1.77426, 2.38419e-07)
+
+[node name="Balloon6" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.45086, -1.32448, 4.76837e-07)
+
+[node name="Balloon7" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.183772, -1.32448, -2.10677)
+
+[node name="Balloon8" parent="." instance=ExtResource("2_vvrsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.662979, 0.749088, -1.81225)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.62383)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.842969, 0.537962, 0, -0.537962, 0.842969, 0, 1.85283, 3.16128)
+
+[node name="Score Text" type="Label" parent="."]
+offset_left = 10.0
+offset_top = 14.0
+offset_right = 261.0
+offset_bottom = 89.0
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_xyxrt")

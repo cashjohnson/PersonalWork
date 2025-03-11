@@ -1,0 +1,260 @@
+[gd_scene load_steps=5 format=3 uid="uid://q1ymlc352i6c"]
+
+[ext_resource type="Texture2D" uid="uid://bevl13vwr5ets" path="res://Physics/PhysicsCharacter.png" id="1_1wvbj"]
+[ext_resource type="Script" path="res://Physics/PhysicsPlayer.gd" id="1_o8vlk"]
+[ext_resource type="PackedScene" uid="uid://bjyfar1fapsjy" path="res://Physics/Create.tscn" id="3_vnfjp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hw0dk"]
+size = Vector2(18, 18)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="RigidBody2D" parent="."]
+gravity_scale = 0.0
+linear_damp = 1.0
+script = ExtResource("1_o8vlk")
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+texture = ExtResource("1_1wvbj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+visible = false
+shape = SubResource("RectangleShape2D_hw0dk")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(0.53292, 0.177837)
+zoom = Vector2(1.5, 1.5)
+
+[node name="Create" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-72, -6)
+
+[node name="Create2" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-113, -29)
+
+[node name="Create3" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-100, 29)
+
+[node name="Create4" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-102, 80)
+
+[node name="Create5" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-143, 57)
+
+[node name="Create6" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-130, 115)
+
+[node name="Create7" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-155, -15)
+
+[node name="Create8" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-196, -38)
+
+[node name="Create9" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-183, 20)
+
+[node name="Create10" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-113, -105)
+
+[node name="Create11" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-154, -128)
+
+[node name="Create12" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-141, -70)
+
+[node name="Create13" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-37, -95)
+
+[node name="Create14" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-78, -118)
+
+[node name="Create15" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-65, -60)
+
+[node name="Create22" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(195, 43)
+
+[node name="Create23" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(154, 20)
+
+[node name="Create24" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(167, 78)
+
+[node name="Create25" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(165, 129)
+
+[node name="Create26" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(124, 106)
+
+[node name="Create27" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(137, 164)
+
+[node name="Create28" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(112, 34)
+
+[node name="Create29" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(71, 11)
+
+[node name="Create30" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(84, 69)
+
+[node name="Create31" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(154, -56)
+
+[node name="Create32" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(113, -79)
+
+[node name="Create33" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(126, -21)
+
+[node name="Create34" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(189, -69)
+
+[node name="Create35" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(202, -11)
+
+[node name="Create36" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(318, 108)
+
+[node name="Create37" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(277, 85)
+
+[node name="Create38" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(290, 143)
+
+[node name="Create39" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(288, 194)
+
+[node name="Create40" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(247, 171)
+
+[node name="Create41" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(260, 229)
+
+[node name="Create42" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(235, 99)
+
+[node name="Create43" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(194, 76)
+
+[node name="Create44" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(207, 134)
+
+[node name="Create45" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(277, 9)
+
+[node name="Create46" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(236, -14)
+
+[node name="Create47" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(249, 44)
+
+[node name="Create48" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(312, -4)
+
+[node name="Create49" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(325, 54)
+
+[node name="Create50" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(49, 146)
+
+[node name="Create51" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(8, 123)
+
+[node name="Create52" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(21, 181)
+
+[node name="Create53" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(19, 232)
+
+[node name="Create54" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-22, 209)
+
+[node name="Create55" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-9, 267)
+
+[node name="Create56" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-34, 137)
+
+[node name="Create57" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-75, 114)
+
+[node name="Create58" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-62, 172)
+
+[node name="Create59" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(8, 47)
+
+[node name="Create60" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-33, 24)
+
+[node name="Create61" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-20, 82)
+
+[node name="Create62" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(43, 34)
+
+[node name="Create63" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(56, 92)
+
+[node name="Create64" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-335, 31)
+
+[node name="Create65" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-376, 8)
+
+[node name="Create66" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-363, 66)
+
+[node name="Create67" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-109, 57)
+
+[node name="Create68" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-96, 115)
+
+[node name="Create69" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-149, 20)
+
+[node name="Create70" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-184, 97)
+
+[node name="Create71" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-225, 74)
+
+[node name="Create72" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-212, 132)
+
+[node name="Create73" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-255, 160)
+
+[node name="Create74" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-267, 88)
+
+[node name="Create75" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-308, 65)
+
+[node name="Create76" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-295, 123)
+
+[node name="Create77" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-253, 33)
+
+[node name="Create78" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-177, 43)
+
+[node name="Create16" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(15, -105)
+
+[node name="Create17" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-26, -128)
+
+[node name="Create18" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(-13, -70)
+
+[node name="Create19" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(60, -53)
+
+[node name="Create20" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(19, -76)
+
+[node name="Create21" parent="." instance=ExtResource("3_vnfjp")]
+position = Vector2(32, -18)

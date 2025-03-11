@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://tblx1tgpdcjv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cipnu"]
+albedo_color = Color(0.75945, 0.401883, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2x4q4"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_4icl4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bkor3"]
+albedo_color = Color(0.0163746, 0.788214, 0, 1)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_4u4jk"]
+radius = 0.412935
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_b0gsj"]
+height = 1.62447
+radius = 0.875
+
+[node name="Tree" type="StaticBody3D" groups=["Tree"]]
+
+[node name="Trunk" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.770251, 0, 0, 0, 1, 0, 0, 0, 0.828596, 0, 0.991852, 0)
+material_overlay = SubResource("StandardMaterial3D_cipnu")
+mesh = SubResource("CylinderMesh_2x4q4")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.75, 0, 0, 0, 1, 0, 0, 0, 1.75, 0, 1.2507, 0)
+mesh = SubResource("SphereMesh_4icl4")
+skeleton = NodePath("../Trunk")
+surface_material_override/0 = SubResource("StandardMaterial3D_bkor3")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.37717, 0, 0, 0, 1.05427, 0, 0, 0, 1.42327, 0, 1.80505, 0)
+mesh = SubResource("SphereMesh_4icl4")
+skeleton = NodePath("../Trunk")
+surface_material_override/0 = SubResource("StandardMaterial3D_bkor3")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00100565, 2.30097, 0.00559187)
+mesh = SubResource("SphereMesh_4icl4")
+skeleton = NodePath("../Trunk")
+surface_material_override/0 = SubResource("StandardMaterial3D_bkor3")
+
+[node name="Trunk collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00516, 0)
+shape = SubResource("CylinderShape3D_4u4jk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00758314, 1.89537, 0.00205326)
+shape = SubResource("CylinderShape3D_b0gsj")

@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://dm8svtjhn7lgv"]
+
+[ext_resource type="Script" path="res://Collision/Score Manager.gd" id="1_j4tc3"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_iuq6i"]
+friction = 0.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_ho5ar"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3t28"]
+albedo_color = Color(0.404724, 0.683438, 0.934507, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lp6wx"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_nwuac"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_muwgr"]
+albedo_color = Color(1, 0, 0, 0)
+
+[sub_resource type="BoxMesh" id="BoxMesh_opmby"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mn0p8"]
+size = Vector3(1.68164, 1.59039, 0.715698)
+
+[node name="Player" type="RigidBody3D"]
+transform = Transform3D(0.996752, 0, 0, 0, 0.996752, 0, 0, 0, 0.996752, 0, 0, 0)
+physics_material_override = SubResource("PhysicsMaterial_iuq6i")
+max_contacts_reported = 3
+contact_monitor = true
+script = ExtResource("1_j4tc3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.57014, 0, 0, 0, 0.997215, 0, 0, 0, 0.715473, 0, 0, 0)
+mesh = SubResource("BoxMesh_ho5ar")
+surface_material_override/0 = SubResource("StandardMaterial3D_r3t28")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.476565, 0, 0, 0, 0.476565, 0, 0, 0, 0.476565, 0, 0.724974, 0)
+material_override = SubResource("StandardMaterial3D_lp6wx")
+mesh = SubResource("SphereMesh_nwuac")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.6832, 0, 0, 0, 0.129606, 0, 0, 0, 0.510048, 0, -0.566965, 0)
+material_override = SubResource("StandardMaterial3D_muwgr")
+mesh = SubResource("BoxMesh_opmby")
+skeleton = NodePath("../MeshInstance3D2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.999991, 0, 0, 0, 0.999991, 0, 0, 0, 0.999991, -0.00585878, 0.161955, 0.00482187)
+shape = SubResource("BoxShape3D_mn0p8")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-3.82966e-08, 0.488807, -0.876125, 2.13664e-08, 0.876125, 0.488807, 1.00326, 1.78214e-15, -4.38538e-08, -3.52002, 2.18332, 0)
+
+[node name="Label" type="Label" parent="Camera3D"]
+anchors_preset = -1
+anchor_right = 0.009
+anchor_bottom = 0.005
+offset_right = 29.632
+offset_bottom = 19.76
+text = "test"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
