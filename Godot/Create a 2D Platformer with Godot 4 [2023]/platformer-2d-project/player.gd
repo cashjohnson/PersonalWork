@@ -15,7 +15,7 @@ func _physics_process(delta):
 	if Input.is_key_pressed(KEY_RIGHT):
 		velocity.x += move_speed 
 	
-	if Input.is_key_label_pressed(KEY_SPACE) and is_on_floor():
+	if (Input.is_key_label_pressed(KEY_SPACE) or Input.is_key_label_pressed(KEY_UP)) and is_on_floor():
 		velocity.y = -jump_force
 	
 	move_and_slide()
@@ -25,8 +25,3 @@ func _physics_process(delta):
 
 func game_over ():
 	get_tree().reload_current_scene()
-
-
-func _on_enemy_body_entered(body: Node2D) -> void:
-	if body.is_in_group("Player"):
-		body.game_over()
