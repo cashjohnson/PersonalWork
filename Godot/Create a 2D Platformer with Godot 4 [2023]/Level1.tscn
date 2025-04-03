@@ -1,0 +1,104 @@
+[gd_scene load_steps=11 format=4 uid="uid://dmbejtrt6igwc"]
+
+[ext_resource type="TileSet" uid="uid://4w1d5ryn1vv4" path="res://tile_set.tres" id="1_1di06"]
+[ext_resource type="Script" path="res://player.gd" id="2_bddqg"]
+[ext_resource type="Texture2D" uid="uid://bqb4j84403j2a" path="res://Sprites/Characters/character_0000.png" id="2_r26tw"]
+[ext_resource type="PackedScene" uid="uid://dwh44e7jjgek7" path="res://enemy.tscn" id="4_70sdc"]
+[ext_resource type="PackedScene" uid="uid://bfruincpxhtpn" path="res://Spikes.tscn" id="5_ersim"]
+[ext_resource type="PackedScene" uid="uid://buwkf8n640864" path="res://Coin.tscn" id="6_y1a4h"]
+[ext_resource type="Script" path="res://Coin.gd" id="7_cskbh"]
+[ext_resource type="PackedScene" uid="uid://s2l1niamfohp" path="res://End_flag.tscn" id="8_446o8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t663w"]
+height = 24.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_8r447"]
+font_size = 26
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Main" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD8/wAAAAAAAAAAAAD9/wAAAAAAAAAAAAD+/wAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAP//AAAAAAAAAAACAP//AAAAAAAAAAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAFAP//AAAAAAAAAAAFAP7/AAAAAAAAAAAFAP3/AAAAAAAAAAAGAP3/AAAAAAAAAAAGAP7/AAAAAAAAAAAGAP//AAAAAAAAAAAGAAAAAAAAAAAAAAAGAAEAAAAAAAAAAAAFAAAAAAAAAAAAAAAKAP3/AAAAAAAAAAALAP3/AAAAAAAAAAAMAP3/AAAAAAAAAAANAP3/AAAAAAAAAAAOAP3/AAAAAAAAAAARAPv/AAAAAAAAAAASAPv/AAAAAAAAAAATAPr/AAAAAAAAAAAUAPv/AAAAAAAAAAAVAPv/AAAAAAAAAAAWAAAAAAAAAAAAAAAXAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAcAP7/AAAMAAYAAAAdAP7/AAANAAYAAAAeAP7/AAANAAYAAAAfAP7/AAAOAAUAAAAgAP3/AAAOAAUAAAAgAPz/AAAPAAUAAAAgAPv/AAANAAQAAAAhAPv/AAANAAYAAAAiAPv/AAANAAYAAAAjAPv/AAANAAYAAAAkAPv/AAAOAAQAAAAkAPz/AAAPAAUAAAAkAP3/AAAPAAUAAAAkAP7/AAAPAAUAAAAkAP//AAAPAAUAAAAkAAAAAAAPAAUAAAAkAAEAAAAPAAUAAAAkAAIAAAANAAUAAAAlAAIAAAANAAYAAAAmAAIAAAANAAYAAAAnAAIAAAANAAYAAAAoAAIAAAANAAYAAAApAAIAAAANAAYAAAAqAAIAAAANAAYAAAAfAP3/AAANAAQAAAA=")
+tile_set = ExtResource("1_1di06")
+
+[node name="Player" type="CharacterBody2D" parent="." groups=["Player"]]
+position = Vector2(0, -12)
+script = ExtResource("2_bddqg")
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_r26tw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("CapsuleShape2D_t663w")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, 12)
+offset = Vector2(0, -33)
+zoom = Vector2(3, 3)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Player"]
+
+[node name="Score Text" type="Label" parent="Player/CanvasLayer"]
+offset_right = 61.0
+offset_bottom = 23.0
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_8r447")
+
+[node name="Enemy" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(38, -66)
+
+[node name="Enemy2" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(150, -45)
+
+[node name="Enemy3" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(288, -63)
+
+[node name="Enemy4" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(413, -15)
+move_dir = Vector2(50, 0)
+
+[node name="Enemy5" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(619, -103)
+
+[node name="Enemy6" parent="." instance=ExtResource("4_70sdc")]
+position = Vector2(-52, -14)
+move_dir = Vector2(-50, 0)
+
+[node name="Spikes" parent="." instance=ExtResource("5_ersim")]
+
+[node name="Coin" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(-27, -15)
+script = ExtResource("7_cskbh")
+
+[node name="Coin2" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(39, -32)
+script = ExtResource("7_cskbh")
+
+[node name="Coin3" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(108, -69)
+script = ExtResource("7_cskbh")
+
+[node name="Coin4" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(252, -66)
+script = ExtResource("7_cskbh")
+
+[node name="Coin5" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(352, -122)
+script = ExtResource("7_cskbh")
+
+[node name="Coin6" parent="." instance=ExtResource("6_y1a4h")]
+position = Vector2(520, -51)
+script = ExtResource("7_cskbh")
+
+[node name="EndFlag" parent="." instance=ExtResource("8_446o8")]
+position = Vector2(189, -63)
+next_scene = "res://Level2.tscn"
+
+[connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
+[connection signal="body_entered" from="Coin2" to="Coin2" method="_on_body_entered"]
+[connection signal="body_entered" from="Coin3" to="Coin3" method="_on_body_entered"]
+[connection signal="body_entered" from="Coin4" to="Coin4" method="_on_body_entered"]
+[connection signal="body_entered" from="Coin5" to="Coin5" method="_on_body_entered"]
+[connection signal="body_entered" from="Coin6" to="Coin6" method="_on_body_entered"]
