@@ -1,0 +1,214 @@
+<svg height="800" width="1000" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 12/3/2024, 7:43:50 PM -->
+<rect height="800" width="1000" fill="#ffffff"></rect>
+<g transform="translate(144.77351,18)">
+<g id="sankey_flows">
+<path id="flow1" d="M20 266.92172C109.49016 266.92172 143.58164 263.34101 233.0718 263.34101" fill="none" stroke-width="270.59944" stroke="#8c564b" opacity="0.5"><title>Gross → Take Home: 5,272</title></path>
+<path id="flow6" d="M253.0718 197.87258C342.56195 197.87258 376.65344 69.83129 466.1436 69.83129" fill="none" stroke-width="139.66257" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Bills and Utilities: 2,721</title></path>
+<path id="flow19" d="M486.1436 0v118.5669L699.21539 118.5669v-118.5669z" fill="#8c564b" stroke-width="0.5" stroke="#8c564b" opacity="0.5"><title>Bills and Utilities → Mortgage: 2,310</title></path>
+<path id="flow0" d="M20 83.14302C109.49016 83.14302 143.58164 48.47898 233.0718 48.47898" fill="none" stroke-width="96.95796" stroke="#8c564b" opacity="0.5"><title>Gross → Taxes: 1,889</title></path>
+<path id="flow13" d="M253.0718 341.17942C342.56195 341.17942 376.65344 428.46304 466.1436 428.46304" fill="none" stroke-width="24.58595" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Groceries: 479</title></path>
+<path id="flow2" d="M20 416.87549C109.49016 416.87549 143.58164 526.11995 233.0718 526.11995" fill="none" stroke-width="23.66205" stroke="#8c564b" opacity="0.5"><title>Gross → Retirement (401K): 461</title></path>
+<path id="flow27" d="M253.0718 526.11995C342.56195 526.11995 376.65344 634.05759 466.1436 634.05759" fill="none" stroke-width="23.66205" stroke="#bcbd22" opacity="0.5"><title>Retirement (401K) → Investments: 461</title></path>
+<path id="flow10" d="M253.0718 302.83765C342.56195 302.83765 376.65344 299.12969 466.1436 299.12969" fill="none" stroke-width="19.76115" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Costco: 385</title></path>
+<path id="flow18" d="M253.0718 389.11945C342.56195 389.11945 376.65344 545.30295 466.1436 545.30295" fill="none" stroke-width="16.37352" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Vacation: 319</title></path>
+<path id="flow12" d="M253.0718 322.54747C342.56195 322.54747 376.65344 378.74777 466.1436 378.74777" fill="none" stroke-width="12.67793" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Fish: 247</title></path>
+<path id="flow7" d="M253.0718 273.96584C342.56195 273.96584 376.65344 227.9098 466.1436 227.9098" fill="none" stroke-width="12.52395" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Anneliese Fun Money: 244</title></path>
+<path id="flow14" d="M253.0718 368.28042C342.56195 368.28042 376.65344 477.81902 466.1436 477.81902" fill="none" stroke-width="11.95935" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Home and Garden: 233</title></path>
+<path id="flow9" d="M253.0718 288.20927C342.56195 288.20927 376.65344 274.41798 466.1436 274.41798" fill="none" stroke-width="9.49562" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Cash Fun Money: 185</title></path>
+<path id="flow16" d="M253.0718 357.88657C342.56195 357.88657 376.65344 457.87394 466.1436 457.87394" fill="none" stroke-width="8.82836" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Pets: 172</title></path>
+<path id="flow23" d="M486.1436 131.14218C575.63375 131.14218 609.72524 192.36241 699.21539 192.36241" fill="none" stroke-width="6.87791" stroke="#17becf" opacity="0.5"><title>Bills and Utilities → Electric: 134</title></path>
+<path id="flow15" d="M253.0718 377.59639C342.56195 377.59639 376.65344 518.21833 466.1436 518.21833" fill="none" stroke-width="6.6726" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Loan Payment: 130</title></path>
+<path id="flow22" d="M486.1436 121.51824C575.63375 121.51824 609.72524 130.01484 699.21539 130.01484" fill="none" stroke-width="5.90268" stroke="#bcbd22" opacity="0.5"><title>Bills and Utilities → MI: 115</title></path>
+<path id="flow8" d="M253.0718 281.84464C342.56195 281.84464 376.65344 252.95184 466.1436 252.95184" fill="none" stroke-width="3.23364" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Auto &amp; Transport: 63</title></path>
+<path id="flow3" d="M20 403.63295C109.49016 403.63295 143.58164 421.35942 233.0718 421.35942" fill="none" stroke-width="2.82302" stroke="#8c564b" opacity="0.5"><title>Gross → Benefits: 55</title></path>
+<path id="flow4" d="M253.0718 421.2311C342.56195 421.2311 376.65344 579.63996 466.1436 579.63996" fill="none" stroke-width="2.56638" stroke="#17becf" opacity="0.5"><title>Benefits → HSA: 50</title></path>
+<path id="flow21" d="M486.1436 126.47136C575.63375 126.47136 609.72524 169.73537 699.21539 169.73537" fill="none" stroke-width="2.46373" stroke="#7f7f7f" opacity="0.5"><title>Bills and Utilities → Water: 48</title></path>
+<path id="flow24" d="M486.1436 135.78734C575.63375 135.78734 609.72524 213.20955 699.21539 213.20955" fill="none" stroke-width="2.4124" stroke="#1f77b4" opacity="0.5"><title>Bills and Utilities → Sewer: 47</title></path>
+<path id="flow17" d="M253.0718 313.84743C342.56195 313.84743 376.65344 328.69017 466.1436 328.69017" fill="none" stroke-width="2.25842" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Phone: 44</title></path>
+<path id="flow25" d="M486.1436 137.89177C575.63375 137.89177 609.72524 235.39474 699.21539 235.39474" fill="none" stroke-width="1.79647" stroke="#ff7f0e" opacity="0.5"><title>Bills and Utilities → Comcast: 35</title></path>
+<path id="flow11" d="M253.0718 315.59257C342.56195 315.59257 376.65344 354.70953 466.1436 354.70953" fill="none" stroke-width="1.23186" stroke="#7f7f7f" opacity="0.5"><title>Take Home → Dining and Drinks: 24</title></path>
+<path id="flow26" d="M486.1436 139.22629C575.63375 139.22629 609.72524 255.81002 699.21539 255.81002" fill="none" stroke-width="1" stroke="#2ca02c" opacity="0.5"><title>Bills and Utilities → Trash: 17</title></path>
+<path id="flow20" d="M486.1436 124.85454C575.63375 124.85454 609.72524 150.03519 699.21539 150.03519" fill="none" stroke-width="1" stroke="#e377c2" opacity="0.5"><title>Bills and Utilities → Xcel Energy: 15</title></path>
+<path id="flow5" d="M253.0718 422.64261C342.56195 422.64261 376.65344 600.12725 466.1436 600.12725" fill="none" stroke-width="1" stroke="#17becf" opacity="0.5"><title>Benefits → Vision: 5</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="34.66404" height="394.04248" width="20" fill="#8c564b" fill-opacity="1"><title>Gross:
+7,677</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="233.0718" y="0" height="96.95796" width="20" fill="#e377c2" fill-opacity="1"><title>Taxes:
+1,889</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="233.0718" y="128.04129" height="270.59944" width="20" fill="#7f7f7f" fill-opacity="1"><title>Take Home:
+5,272</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="233.0718" y="571.8418" height="23.66205" width="20" fill="#bcbd22" fill-opacity="1" transform="translate(0,-57.55287)"><title>Retirement (401K):
+461</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="233.0718" y="537.93545" height="2.82302" width="20" fill="#17becf" fill-opacity="1" transform="translate(0,-117.98754)"><title>Benefits:
+55</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="466.1436" y="673.34826" height="2.56638" width="20" fill="#1f77b4" fill-opacity="1" transform="translate(0,-94.99149)"><title>HSA:
+50</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="466.1436" y="706.99798" height="0.25664" width="20" fill="#ff7f0e" fill-opacity="1" transform="translate(0,-106.99904)"><title>Vision:
+5</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="466.1436" y="0" height="139.66257" width="20" fill="#2ca02c" fill-opacity="1"><title>Bills and Utilities:
+2,721</title></rect>
+</g>
+<g class="node">
+<rect id="r8" class="for_r8" x="466.1436" y="170.74591" height="12.52395" width="20" fill="#d62728" fill-opacity="1" transform="translate(0,50.90192)"><title>Anneliese Fun Money:
+244</title></rect>
+</g>
+<g class="node">
+<rect id="r9" class="for_r9" x="466.1436" y="214.35319" height="3.23364" width="20" fill="#9467bd" fill-opacity="1" transform="translate(0,36.98183)"><title>Auto &amp; Transport:
+63</title></rect>
+</g>
+<g class="node">
+<rect id="r10" class="for_r10" x="466.1436" y="248.67017" height="9.49562" width="20" fill="#8c564b" fill-opacity="1" transform="translate(0,21)"><title>Cash Fun Money:
+185</title></rect>
+</g>
+<g class="node">
+<rect id="r11" class="for_r11" x="466.1436" y="289.24912" height="19.76115" width="20" fill="#e377c2" fill-opacity="1"><title>Costco:
+385</title></rect>
+</g>
+<g class="node">
+<rect id="r12" class="for_r12" x="466.1436" y="340.0936" height="1.23186" width="20" fill="#7f7f7f" fill-opacity="1" transform="translate(0,14)"><title>Dining and Drinks:
+24</title></rect>
+</g>
+<g class="node">
+<rect id="r13" class="for_r13" x="466.1436" y="372.4088" height="12.67793" width="20" fill="#bcbd22" fill-opacity="1"><title>Fish:
+247</title></rect>
+</g>
+<g class="node">
+<rect id="r14" class="for_r14" x="466.1436" y="416.17007" height="24.58595" width="20" fill="#17becf" fill-opacity="1"><title>Groceries:
+479</title></rect>
+</g>
+<g class="node">
+<rect id="r15" class="for_r15" x="466.1436" y="471.83935" height="11.95935" width="20" fill="#1f77b4" fill-opacity="1"><title>Home and Garden:
+233</title></rect>
+</g>
+<g class="node">
+<rect id="r16" class="for_r16" x="466.1436" y="514.88203" height="6.6726" width="20" fill="#ff7f0e" fill-opacity="1"><title>Loan Payment:
+130</title></rect>
+</g>
+<g class="node">
+<rect id="r17" class="for_r17" x="466.1436" y="552.63796" height="8.82836" width="20" fill="#2ca02c" fill-opacity="1" transform="translate(0,-99.1782)"><title>Pets:
+172</title></rect>
+</g>
+<g class="node">
+<rect id="r18" class="for_r18" x="466.1436" y="592.54965" height="2.25842" width="20" fill="#d62728" fill-opacity="1" transform="translate(0,-264.98869)"><title>Phone:
+44</title></rect>
+</g>
+<g class="node">
+<rect id="r19" class="for_r19" x="466.1436" y="625.8914" height="16.37352" width="20" fill="#9467bd" fill-opacity="1" transform="translate(0,-88.77521)"><title>Vacation:
+319</title></rect>
+</g>
+<g class="node">
+<rect id="r20" class="for_r20" x="699.21539" y="0" height="118.5669" width="20" fill="#8c564b" fill-opacity="1"><title>Mortgage:
+2,310</title></rect>
+</g>
+<g class="node">
+<rect id="r21" class="for_r21" x="699.21539" y="149.65024" height="0.76991" width="20" fill="#e377c2" fill-opacity="1"><title>Xcel Energy:
+15</title></rect>
+</g>
+<g class="node">
+<rect id="r22" class="for_r22" x="699.21539" y="181.50349" height="2.46373" width="20" fill="#7f7f7f" fill-opacity="1" transform="translate(0,-12.99998)"><title>Water:
+48</title></rect>
+</g>
+<g class="node">
+<rect id="r23" class="for_r23" x="699.21539" y="215.05055" height="5.90268" width="20" fill="#bcbd22" fill-opacity="1" transform="translate(0,-87.98704)"><title>MI:
+115</title></rect>
+</g>
+<g class="node">
+<rect id="r24" class="for_r24" x="699.21539" y="252.03656" height="6.87791" width="20" fill="#17becf" fill-opacity="1" transform="translate(0,-63.1131)"><title>Electric:
+134</title></rect>
+</g>
+<g class="node">
+<rect id="r25" class="for_r25" x="699.21539" y="289.9978" height="2.4124" width="20" fill="#1f77b4" fill-opacity="1" transform="translate(0,-77.99445)"><title>Sewer:
+47</title></rect>
+</g>
+<g class="node">
+<rect id="r26" class="for_r26" x="699.21539" y="323.49354" height="1.79647" width="20" fill="#ff7f0e" fill-opacity="1" transform="translate(0,-88.99703)"><title>Comcast:
+35</title></rect>
+</g>
+<g class="node">
+<rect id="r27" class="for_r27" x="699.21539" y="356.37334" height="0.87257" width="20" fill="#2ca02c" fill-opacity="1" transform="translate(0,-100.9996)"><title>Trash:
+17</title></rect>
+</g>
+<g class="node">
+<rect id="r28" class="for_r28" x="466.1436" y="738.33795" height="23.66205" width="20" fill="#d62728" fill-opacity="1" transform="translate(0,-116.11139)"><title>Investments:
+461</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="17px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-132.77355" y="216.5653" width="131.03864" height="29.76" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-6.69178" y="231.68528" font-weight="400" font-size="21.08px" dy="6.96">Gross: <tspan font-weight="400" font-size="21.08px">7,677</tspan></text>
+<rect id="label1_bg" class="for_r1" x="254.80671" y="36.87098" width="94.95111" height="22.56" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="259.76358" y="48.47898" font-weight="400" font-size="14.92384px" dy="4.872">Taxes: <tspan font-weight="400" font-size="14.92384px">1,889</tspan></text>
+<rect id="label2_bg" class="for_r2" x="162.95868" y="249.69303" width="160.65113" height="26.55999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="middle" x="243.0718" y="263.34101" font-weight="400" font-size="18.52202px" dy="6.032">Take Home: <tspan font-weight="400" font-size="18.52202px">5,272</tspan></text>
+<rect id="label3_bg" class="for_r3" x="168.47118" y="573.20087" width="149.62612" height="20.96001" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-57.55287)"></rect>
+<text id="label3" class="for_r3" text-anchor="middle" x="243.0718" y="583.67283" font-weight="400" font-size="13.40501px" dy="4.408" transform="translate(0,-57.55287)">Retirement (401K): <tspan font-weight="400" font-size="13.40501px">461</tspan></text>
+<rect id="label4_bg" class="for_r4" x="203.86493" y="528.64295" width="78.83863" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-117.98754)"></rect>
+<text id="label4" class="for_r4" text-anchor="middle" x="243.0718" y="539.34696" font-weight="400" font-size="12.97318px" dy="4.176" transform="translate(0,-117.98754)">Benefits: <tspan font-weight="400" font-size="12.97318px">55</tspan></text>
+<rect id="label5_bg" class="for_r5" x="487.87854" y="663.92743" width="58.63858" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-94.99149)"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="492.83538" y="674.63145" font-weight="400" font-size="12.96786px" dy="4.176" transform="translate(0,-94.99149)">HSA: <tspan font-weight="400" font-size="12.96786px">50</tspan></text>
+<rect id="label6_bg" class="for_r6" x="487.07853" y="696.42225" width="60.47614" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-106.99904)"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="492.83538" y="707.12629" font-weight="400" font-size="12.92px" dy="4.176" transform="translate(0,-106.99904)">Vision: <tspan font-weight="400" font-size="12.92px">5</tspan></text>
+<rect id="label7_bg" class="for_r7" x="389.46799" y="57.65529" width="173.77613" height="23.36" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="middle" x="476.1436" y="69.83129" font-weight="400" font-size="15.80876px" dy="5.104">Bills and Utilities: <tspan font-weight="400" font-size="15.80876px">2,721</tspan></text>
+<rect id="label8_bg" class="for_r8" x="487.07853" y="166.30388" width="167.80109" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,50.90192)"></rect>
+<text id="label8" class="for_r8" text-anchor="start" x="492.83538" y="177.00788" font-weight="400" font-size="13.1742px" dy="4.176" transform="translate(0,50.90192)">Anneliese Fun Money: <tspan font-weight="400" font-size="13.1742px">244</tspan></text>
+<rect id="label9_bg" class="for_r9" x="487.07853" y="205.26603" width="130.16364" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,36.98183)"></rect>
+<text id="label9" class="for_r9" text-anchor="start" x="492.83538" y="215.97001" font-weight="400" font-size="12.98169px" dy="4.176" transform="translate(0,36.98183)">Auto &amp; Transport: <tspan font-weight="400" font-size="12.98169px">63</tspan></text>
+<rect id="label10_bg" class="for_r10" x="487.87854" y="242.71399" width="139.20108" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,21)"></rect>
+<text id="label10" class="for_r10" text-anchor="start" x="492.83538" y="253.41798" font-weight="400" font-size="13.11145px" dy="4.176" transform="translate(0,21)">Cash Fun Money: <tspan font-weight="400" font-size="13.11145px">185</tspan></text>
+<rect id="label11_bg" class="for_r11" x="487.87854" y="288.65769" width="81.42612" height="20.96001" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label11" class="for_r11" text-anchor="start" x="492.83538" y="299.12969" font-weight="400" font-size="13.32417px" dy="4.408">Costco: <tspan font-weight="400" font-size="13.32417px">385</tspan></text>
+<rect id="label12_bg" class="for_r12" x="487.87854" y="330.00553" width="134.02616" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,14)"></rect>
+<text id="label12" class="for_r12" text-anchor="start" x="492.83538" y="340.70953" font-weight="400" font-size="12.94021px" dy="4.176" transform="translate(0,14)">Dining and Drinks: <tspan font-weight="400" font-size="12.94021px">24</tspan></text>
+<rect id="label13_bg" class="for_r13" x="487.87854" y="368.0438" width="64.55112" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label13" class="for_r13" text-anchor="start" x="492.83538" y="378.74777" font-weight="400" font-size="13.17739px" dy="4.176">Fish: <tspan font-weight="400" font-size="13.17739px">247</tspan></text>
+<rect id="label14_bg" class="for_r14" x="487.87854" y="417.99106" width="98.38864" height="20.96001" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label14" class="for_r14" text-anchor="start" x="492.83538" y="428.46304" font-weight="400" font-size="13.42415px" dy="4.408">Groceries: <tspan font-weight="400" font-size="13.42415px">479</tspan></text>
+<rect id="label15_bg" class="for_r15" x="487.87854" y="467.11503" width="147.97611" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label15" class="for_r15" text-anchor="start" x="492.83538" y="477.81902" font-weight="400" font-size="13.1625px" dy="4.176">Home and Garden: <tspan font-weight="400" font-size="13.1625px">233</tspan></text>
+<rect id="label16_bg" class="for_r16" x="487.87854" y="507.51429" width="123.51364" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label16" class="for_r16" text-anchor="start" x="492.83538" y="518.21833" font-weight="400" font-size="13.05295px" dy="4.176">Loan Payment: <tspan font-weight="400" font-size="13.05295px">130</tspan></text>
+<rect id="label17_bg" class="for_r17" x="487.87854" y="546.34815" width="65.68863" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-99.1782)"></rect>
+<text id="label17" class="for_r17" text-anchor="start" x="492.83538" y="557.05214" font-weight="400" font-size="13.09762px" dy="4.176" transform="translate(0,-99.1782)">Pets: <tspan font-weight="400" font-size="13.09762px">172</tspan></text>
+<rect id="label18_bg" class="for_r18" x="487.87854" y="582.9748" width="69.47611" height="20.16002" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-264.98869)"></rect>
+<text id="label18" class="for_r18" text-anchor="start" x="492.83538" y="593.67886" font-weight="400" font-size="12.96148px" dy="4.176" transform="translate(0,-264.98869)">Phone: <tspan font-weight="400" font-size="12.96148px">44</tspan></text>
+<rect id="label19_bg" class="for_r19" x="487.07853" y="623.60621" width="91.1886" height="20.96001" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-88.77521)"></rect>
+<text id="label19" class="for_r19" text-anchor="start" x="492.83538" y="634.07816" font-weight="400" font-size="13.25397px" dy="4.408" transform="translate(0,-88.77521)">Vacation: <tspan font-weight="400" font-size="13.25397px">319</tspan></text>
+<rect id="label20_bg" class="for_r20" x="720.95029" y="47.67546" width="122.27619" height="22.56" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label20" class="for_r20" text-anchor="start" x="725.90718" y="59.28345" font-weight="400" font-size="15.37162px" dy="4.872">Mortgage: <tspan font-weight="400" font-size="15.37162px">2,310</tspan></text>
+<rect id="label21_bg" class="for_r21" x="720.1503" y="139.33118" width="102.41608" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label21" class="for_r21" text-anchor="start" x="725.90718" y="150.03519" font-weight="400" font-size="12.93064px" dy="4.176">Xcel Energy: <tspan font-weight="400" font-size="12.93064px">15</tspan></text>
+<rect id="label22_bg" class="for_r22" x="720.1503" y="172.03136" width="66.8761" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-12.99998)"></rect>
+<text id="label22" class="for_r22" text-anchor="start" x="725.90718" y="182.73535" font-weight="400" font-size="12.96574px" dy="4.176" transform="translate(0,-12.99998)">Water: <tspan font-weight="400" font-size="12.96574px">48</tspan></text>
+<rect id="label23_bg" class="for_r23" x="720.95029" y="207.2979" width="52.87616" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-87.98704)"></rect>
+<text id="label23" class="for_r23" text-anchor="start" x="725.90718" y="218.00189" font-weight="400" font-size="13.037px" dy="4.176" transform="translate(0,-87.98704)">MI: <tspan font-weight="400" font-size="13.037px">115</tspan></text>
+<rect id="label24_bg" class="for_r24" x="720.95029" y="244.77152" width="82.1886" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-63.1131)"></rect>
+<text id="label24" class="for_r24" text-anchor="start" x="725.90718" y="255.47551" font-weight="400" font-size="13.05721px" dy="4.176" transform="translate(0,-63.1131)">Electric: <tspan font-weight="400" font-size="13.05721px">134</tspan></text>
+<rect id="label25_bg" class="for_r25" x="720.95029" y="280.5" width="68.73865" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-77.99445)"></rect>
+<text id="label25" class="for_r25" text-anchor="start" x="725.90718" y="291.204" font-weight="400" font-size="12.96467px" dy="4.176" transform="translate(0,-77.99445)">Sewer: <tspan font-weight="400" font-size="12.96467px">47</tspan></text>
+<rect id="label26_bg" class="for_r26" x="720.95029" y="313.68781" width="83.00116" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-88.99703)"></rect>
+<text id="label26" class="for_r26" text-anchor="start" x="725.90718" y="324.39177" font-weight="400" font-size="12.95191px" dy="4.176" transform="translate(0,-88.99703)">Comcast: <tspan font-weight="400" font-size="12.95191px">35</tspan></text>
+<rect id="label27_bg" class="for_r27" x="720.95029" y="346.10563" width="64.47858" height="20.15999" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-100.9996)"></rect>
+<text id="label27" class="for_r27" text-anchor="start" x="725.90718" y="356.80962" font-weight="400" font-size="12.93276px" dy="4.176" transform="translate(0,-100.9996)">Trash: <tspan font-weight="400" font-size="12.93276px">17</tspan></text>
+<rect id="label28_bg" class="for_r28" x="487.87854" y="739.69697" width="112.38858" height="20.96001" rx="4.25" fill="#fff" fill-opacity="0.9" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-116.11139)"></rect>
+<text id="label28" class="for_r28" text-anchor="start" x="492.83538" y="750.16897" font-weight="400" font-size="13.40501px" dy="4.408" transform="translate(0,-116.11139)">Investments: <tspan font-weight="400" font-size="13.40501px">461</tspan></text>
+</g>
+</g></svg>
