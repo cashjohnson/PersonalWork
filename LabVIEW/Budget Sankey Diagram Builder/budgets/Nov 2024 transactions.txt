@@ -1,0 +1,103 @@
+11/1/2024	11/1/2024	Credit Card	Quicksilver	8193	Capital One	Patreon* Membership		8.4	Patreon* Membership	Cash Fun Money		everything
+11/1/2024	11/1/2024	Credit Card	Quicksilver	8193	Capital One	CAPITAL ONE ONLINE PYMT AuthDate 01-N ov		-589.51	CAPITAL ONE ONLINE PYMT AuthDate 01-N ov	Credit Card Payment		
+11/1/2024	11/1/2024	Other	******2146	2146	Rocket Mortgage	Payment		-2308.65	Payment	Internal Transfers		
+11/1/2024	11/1/2024	Credit Card	Quicksilver	6426	Capital One	CAPITAL ONE ONLINE PYMT AuthDate 01-N ov		-589.51	CAPITAL ONE ONLINE PYMT AuthDate 01-N ov	Credit Card Payment		
+11/1/2024	11/1/2024	Credit Card	Quicksilver	6426	Capital One	Patreon* Membership		8.4	Patreon* Membership	Cash Fun Money		
+11/2/2024	11/2/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Safeway		2.71	SAFEWAY #0876 FORT COLLINS CO	Groceries		
+11/2/2024	11/2/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Walmart		56.83	WALMART.COM 8009256278 BENTONVILLE AR	Groceries		
+11/2/2024	11/2/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	for $29.85 on card 0093		0	for $29.85 on card 0093	Costco		
+11/2/2024	11/2/2024	Credit Card	Quicksilver	8193	Capital One	Microsoft*PC 1 Month		12.51	Microsoft*PC 1 Month	Cash Fun Money		everything
+11/2/2024	11/2/2024	Credit Card	Quicksilver	8193	Capital One	QT 4202 OUTSIDE		10.04	QT 4202 OUTSIDE	Auto & Transport		
+11/2/2024	11/2/2024	Credit Card	Quicksilver	6426	Capital One	Microsoft*PC 1 Month		12.51	Microsoft*PC 1 Month	Cash Fun Money		
+11/2/2024	11/2/2024	Credit Card	Quicksilver	6426	Capital One	QT 4202 OUTSIDE		10.04	QT 4202 OUTSIDE	Auto & Transport		
+11/3/2024	11/3/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Safeway		39.51	SAFEWAY.COM #0876 877-505-4040 CO	Groceries		
+11/3/2024	11/3/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		-29.85	Credit Voucher COSTCO WHSE #1178 TIMNATH CO Date 11/02/24 90411 5300	Costco		
+11/3/2024	11/3/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		211.35	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/02/24 90424 5300	Costco		
+11/3/2024	11/3/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON MARKETPLACE SEATTLE WA CsCLVdykIxgR Brilliant Beauty Eyelash Curle		5.2	AMAZON MARKETPLACE SEATTLE WA CsCLVdykIxgR Brilliant Beauty Eyelash Curle	Anneliese Fun Money		
+11/4/2024	11/4/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	CAPITAL ONE TYPE: ONLINE PMT ID: 9279744391 CO: CAPITAL ONE NAME: CASH N JOHNSON		589.51	CAPITAL ONE TYPE: ONLINE PMT  ID: 9279744391 CO: CAPITAL ONE  NAME: CASH N JOHNSON	Credit Card Payment		
+11/4/2024	11/4/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	XCEL ENERGY-PSCO TYPE: XCELENERGY ID: 7840296600 CO: XCEL ENERGY-PSCO NAME: ELEVATIONS CH550893045		14.8	XCEL ENERGY-PSCO TYPE: XCELENERGY  ID: 7840296600 CO: XCEL ENERGY-PSCO NAME: ELEVATIONS CH550893045	Bills & Utilities		
+11/4/2024	11/4/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	ROCKET MORTGAGE TYPE: MTG PYMTS ID: 9112356513 CO: ROCKET MORTGAGE NAME: CASH JOHNSON		2308.65	ROCKET MORTGAGE TYPE: MTG PYMTS  ID: 9112356513 CO: ROCKET MORTGAGE  NAME: CASH JOHNSON	Bills & Utilities		
+11/4/2024	11/4/2024	Credit Card	Quicksilver	8193	Capital One	SP SOYLENT		61.5	SP SOYLENT	Groceries		
+11/4/2024	11/4/2024	Credit Card	Quicksilver	8193	Capital One	FORT COLLINS NURSERY		42.67	FORT COLLINS NURSERY	Home & Garden		
+11/4/2024	11/4/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON MARKETPLACE SEATTLE WA BtGPEklfTOqQ Simple Modern Travel Coffee Mu		21.6	AMAZON MARKETPLACE SEATTLE WA BtGPEklfTOqQ Simple Modern Travel Coffee Mu	Anneliese Fun Money		
+11/5/2024	11/5/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	VANGUARD BUY TYPE: INVESTMENT ID: VMC PUR CO: VANGUARD BUY NAME: CASH NEIL JOHNSON		600	VANGUARD BUY TYPE: INVESTMENT  ID: VMC PUR CO: VANGUARD BUY  NAME: CASH NEIL JOHNSON	Investment		
+11/5/2024	11/5/2024	Credit Card	Quicksilver	8193	Capital One	Home Depot		15.6	THE HOME DEPOT #1544	Home & Garden		
+11/5/2024	11/5/2024	Credit Card	Quicksilver	8193	Capital One	Republic Services		16.79	REPUBLIC SERVICES TRAS	Bills & Utilities		
+11/5/2024	11/5/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Merchant Offers Credit		-1.7	Merchant Offers Credit NY	Internal Transfers		
+11/6/2024	11/6/2024	Credit Card	Quicksilver	8193	Capital One	Spotify		21.6	Spotify USA	Entertainment & Rec.		
+11/6/2024	11/6/2024	Credit Card	Quicksilver	8193	Capital One	Walmart		52.56	WALMART.COM	Anneliese Fun Money		
+11/7/2024	11/7/2024	Credit Card	Quicksilver	8193	Capital One	CAPITAL ONE ONLINE PYMT AuthDate 07-N ov		-241.67	CAPITAL ONE ONLINE PYMT AuthDate 07-N ov	Credit Card Payment		
+11/7/2024	11/7/2024	Credit Card	Quicksilver	8193	Capital One	PETS BEST INSURANCE SE		46.66	PETS BEST INSURANCE SE	Pets		
+11/8/2024	11/8/2024	Cash	360 Performance Savings	3437	Capital One	CAPITAL ONE		241.67	CAPITAL ONE	Credit Card Payment		
+11/8/2024	11/8/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		2.66	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/07/24 49211 5300	Costco		
+11/8/2024	11/8/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		12.22	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/07/24 49229 5300	Costco		
+11/8/2024	11/8/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		21.85	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/07/24 49237 5300	Costco		
+11/8/2024	11/8/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	FORTCOLUTILITIES TYPE: EBILL PAY ID: 0000007041 CO: FORTCOLUTILITIES NAME: CASH JOHNSON		133.97	FORTCOLUTILITIES TYPE: EBILL PAY  ID: 0000007041 CO: FORTCOLUTILITIES  NAME: CASH JOHNSON	Bills & Utilities		
+11/8/2024	11/8/2024	Credit Card	Quicksilver	8193	Capital One	Home Depot		18.58	THE HOME DEPOT #1544	Home & Garden	painting big brush	
+11/9/2024	11/9/2024	Credit Card	Quicksilver	8193	Capital One	Home Depot		43.92	THE HOME DEPOT #1544	Home & Garden	"Rollers, paint, and tray"	
+11/9/2024	11/9/2024	Credit Card	Quicksilver	8193	Capital One	Walmart		-16.18	WM SUPERCENTER #2729	Anneliese Fun Money		
+11/11/2024	11/11/2024	Credit Card	Quicksilver	8193	Capital One	Home Depot		17.8	THE HOME DEPOT #1544	Home & Garden		
+11/11/2024	11/11/2024	Credit Card	Quicksilver	8193	Capital One	Home Depot		-3.75	THE HOME DEPOT #1544	Home & Garden		
+11/12/2024	11/12/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	ELCWD Debits TYPE: UTIL BILL ID: 2840521615 CO: ELCWD Debits		47.83	ELCWD Debits TYPE: UTIL BILL  ID: 2840521615 CO: ELCWD Debits	Bills & Utilities		
+11/12/2024	11/12/2024	Credit Card	Quicksilver	8193	Capital One	LS NORTHSTAR LIQUOR		7.66	LS NORTHSTAR LIQUOR	Cash Fun Money		
+11/13/2024	11/13/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	DEPT EDUCATION TYPE: STUDENT LN ID: 9102001001 CO: DEPT EDUCATION		129.52	DEPT EDUCATION TYPE: STUDENT LN  ID: 9102001001 CO: DEPT EDUCATION	Loan Payment		
+11/13/2024	11/13/2024	Credit Card	Quicksilver	8193	Capital One	NEW ASIAN EXPRESS		19.25	NEW ASIAN EXPRESS	Dining & Drinks		
+11/13/2024	11/13/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	"AMAZON MARKETPLACE SEATTLE WA fRwoRzeLwcsM Feit Electric Smart Plug, WiFi"		20.53	"AMAZON MARKETPLACE SEATTLE WA fRwoRzeLwcsM Feit Electric Smart Plug, WiFi"	Anneliese Fun Money		
+11/13/2024	11/13/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON MARKETPLACE SEATTLE WA CBwqDRxNvaye Zoo Med 25157 Reprising 10.0 U		15.12	AMAZON MARKETPLACE SEATTLE WA CBwqDRxNvaye Zoo Med 25157 Reprising 10.0 U	Anneliese Fun Money		
+11/14/2024	11/14/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Safeway		30.71	SAFEWAY.COM #0876 877-505-4040 CO	Groceries		
+11/14/2024	11/14/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Walmart		44.3	WALMART.COM 800-925-6278 AR	Groceries		
+11/14/2024	11/14/2024	Credit Card	Quicksilver	8193	Capital One	SP HILLS PET HPSF		106.9	SP HILLS PET HPSF	Pets		
+11/14/2024	11/14/2024	Other	******2146	2146	Rocket Mortgage	MI		115.43	MI	Bills & Utilities		
+11/15/2024	11/15/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	BIOMEDICAL DEVIC TYPE: DIRECT DEP ID: 9111111101 CO: BIOMEDICAL DEVIC		-2579.58	BIOMEDICAL DEVIC TYPE: DIRECT DEP  ID: 9111111101 CO: BIOMEDICAL DEVIC	Income		
+11/15/2024	11/15/2024	Credit Card	Quicksilver	8193	Capital One	YOU NEED A BUDGET LLC		-61.03	YOU NEED A BUDGET LLC	Bills & Utilities		
+11/16/2024	11/16/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	From Share 0008		-218.23	From Share 0008	Credit Card Payment		
+11/16/2024	11/16/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	To Loan 0041		218.23	To Loan 0041	Credit Card Payment		
+11/16/2024	11/16/2024	Credit Card	Quicksilver	8193	Capital One	HUMBLEBUNDLE.COM		25	HUMBLEBUNDLE.COM	Cash Fun Money		
+11/16/2024	11/16/2024	Credit Card	Quicksilver	8193	Capital One	HUMBLEBUNDLE.COM		25	HUMBLEBUNDLE.COM	Cash Fun Money		
+11/16/2024	11/16/2024	Credit Card	Quicksilver	8193	Capital One	CAPITAL ONE ONLINE PYMT AuthDate 16-N ov		-179.81	CAPITAL ONE ONLINE PYMT AuthDate 16-N ov	Credit Card Payment		
+11/16/2024	11/16/2024	Credit Card	Quicksilver	8193	Capital One	QT 4202 OUTSIDE		26.73	QT 4202 OUTSIDE	Auto & Transport		
+11/16/2024	11/16/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	"ONLINE PAYMENT, THANK YOU"		-172.36	"ONLINE PAYMENT, THANK YOU"	Credit Card Payment		
+11/16/2024	11/16/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	ONLINE PYMT-THANK YOU		-101.18	ONLINE PYMT-THANK YOU ATLANTA GA	Credit Card Payment		
+11/17/2024	11/17/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON RETAIL SEATTLE WA orwnrAFJBDsw Levi's Women's 725 High Rise B		36.8	AMAZON RETAIL SEATTLE WA orwnrAFJBDsw Levi's Women's 725 High Rise B	Anneliese Fun Money		
+11/17/2024	11/17/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON RETAIL SEATTLE WA CQuZMWnNaHbr Philips Automotive Lighting H1		24.87	AMAZON RETAIL SEATTLE WA CQuZMWnNaHbr Philips Automotive Lighting H1	Anneliese Fun Money		
+11/18/2024	11/18/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	CAPITAL ONE TYPE: ONLINE PMT ID: 9279744391 CO: CAPITAL ONE NAME: CASH N JOHNSON		179.81	CAPITAL ONE TYPE: ONLINE PMT  ID: 9279744391 CO: CAPITAL ONE  NAME: CASH N JOHNSON	Credit Card Payment		
+11/18/2024	11/18/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	CITI CARD ONLINE TYPE: PAYMENT ID: CITICTP CO: CITI CARD ONLINE NAME: CASH N JOHNSON		172.36	CITI CARD ONLINE TYPE: PAYMENT  ID: CITICTP CO: CITI CARD ONLINE  NAME: CASH N JOHNSON	Credit Card Payment		
+11/18/2024	11/18/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	AMAZON CORP TYPE: SYF PAYMNT ID: 9069872103 CO: AMAZON CORP NAME: JOHNSONCASH		101.18	AMAZON CORP TYPE: SYF PAYMNT  ID: 9069872103 CO: AMAZON CORP  NAME: JOHNSONCASH	Anneliese Fun Money		
+11/18/2024	11/18/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	King Soopers		4.85	KING SOOPERS #0020 WHEATRIDGE CO	Dining & Drinks	comfort chicken	
+11/18/2024	11/18/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON RETAIL SEATTLE WA BDEyrctYFVUt Levi's Women's 725 High Rise B		36.49	AMAZON RETAIL SEATTLE WA BDEyrctYFVUt Levi's Women's 725 High Rise B	Anneliese Fun Money		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	BISECTHOST* BISECTHOST		7.99	BISECTHOST* BISECTHOST	Internal Transfers		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	APPLE.COM/BILL		0.75	APPLE.COM/BILL	Entertainment & Rec.		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	PIMSLEUR/SIMON & SCHUS		20.95	PIMSLEUR/SIMON & SCHUS	Cash Fun Money		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	PURCHASE ADJUSTMENT		-0.75	PURCHASE ADJUSTMENT	Internal Transfers		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	Home Depot		47.25	THE HOME DEPOT #1544	Home & Garden		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	BISECTHOST* BISECTHOST		2.95	BISECTHOST* BISECTHOST	Internal Transfers		
+11/18/2024	11/18/2024	Credit Card	Quicksilver	6426	Capital One	Patreon* Membership		2.7	Patreon* Membership	Cash Fun Money		
+11/20/2024	11/20/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Merchant Offers Credit		-1.33	Merchant Offers Credit NY	Internal Transfers		
+11/21/2024	11/21/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	AMAZON RETAIL SEATTLE WA CeUNSPhlTUql Levi's Women's 725 High Rise B		-36.51	AMAZON RETAIL SEATTLE WA CeUNSPhlTUql Levi's Women's 725 High Rise B	Anneliese Fun Money		
+11/22/2024	11/22/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	BOXELDER SANIT. TYPE: DEBITS ID: 1840935938 CO: BOXELDER SANIT. NAME: Cash Johnson		47	BOXELDER SANIT. TYPE: DEBITS  ID: 1840935938 CO: BOXELDER SANIT.  NAME: Cash Johnson	Bills & Utilities		
+11/22/2024	11/22/2024	Credit Card	Quicksilver	6426	Capital One	Hertz Rent-a-Car		318.38	HERTZ CAR RENTAL	Travel & Vacation		
+11/23/2024	11/23/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Walmart		42.92	WALMART.COM 8009256278 BENTONVILLE AR	Groceries		
+11/24/2024	11/24/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Safeway		45.02	SAFEWAY.COM #0876 877-505-4040 CO	Groceries		
+11/24/2024	11/24/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		164.03	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/23/24 18446 5300	Costco		
+11/24/2024	11/24/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco		2.66	Loan Advance Cre COSTCO WHSE #1178 TIMNATH CO Date 11/23/24 18438 5300	Costco		
+11/24/2024	11/24/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	Costco Gas		26.09	Loan Advance Cre COSTCO GAS #1178 TIMNATH CO Date 11/23/24 74906 5542	Auto & Transport		
+11/25/2024	11/25/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Walmart		42.13	WALMART.COM WALMART.COM AR	Anneliese Fun Money		
+11/25/2024	11/25/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	Venmo		43.69	VENMO TYPE: PAYMENT  ID: 3264681992  CO: VENMO NAME: CASH JOHNSON	Phone		
+11/25/2024	11/25/2024	Credit Card	Quicksilver	6426	Capital One	Target		18.49	TARGET        00024034	Anneliese Fun Money		
+11/25/2024	11/25/2024	Credit Card	Quicksilver	6426	Capital One	Walmart		7.45	WAL-MART #2729	Groceries		
+11/25/2024	11/25/2024	Credit Card	Quicksilver	6426	Capital One	Home Depot		50.78	THE HOME DEPOT #1544	Home & Garden		
+11/27/2024	11/27/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	Walmart		51.48	WALMART.COM 8009256278 BENTONVILLE AR	Groceries		
+11/27/2024	11/27/2024	Credit Card	Quicksilver	6426	Capital One	ELITE REEF		56.54	ELITE REEF	Fish		
+11/27/2024	11/27/2024	Credit Card	Quicksilver	6426	Capital One	APERTURE PET AND LIFE		190.13	APERTURE PET AND LIFE	Fish		
+11/29/2024	11/29/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	BIOMEDICAL DEVIC TYPE: DIRECT DEP ID: 9111111101 CO: BIOMEDICAL DEVIC		-2692.55	BIOMEDICAL DEVIC TYPE: DIRECT DEP  ID: 9111111101 CO: BIOMEDICAL DEVIC	Income		
+11/29/2024	12/2/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	Comcast		35	COMCAST 8497606 TYPE: 004977416  ID: 0000213249 CO: COMCAST 8497606	Bills & Utilities		
+11/29/2024	11/29/2024	Credit Card	Quicksilver	6426	Capital One	ZENVA-ACADEMY		79.6	ZENVA-ACADEMY	Cash Fun Money		
+11/29/2024	11/29/2024	Credit Card	Quicksilver	6426	Capital One	PetSmart		17.82	PetSmart	Pets		
+11/30/2024	11/30/2024	Cash	POPULAR ULTIMATE SAVINGS	3811	Popular Direct - Personal	INTEREST CREDIT		-6.42	INTEREST CREDIT	Income		
+11/30/2024	11/30/2024	Credit Card	Citi Custom Cash® Card	5729	Citibank Online	"ONLINE PAYMENT, THANK YOU"		-185.07	"ONLINE PAYMENT, THANK YOU"	Credit Card Payment		
+11/30/2024	11/30/2024	Credit Card	VISA REWARDS	41	Elevations Credit Union	From Share 0008		-192.78	From Share 0008	Credit Card Payment		
+11/30/2024	11/30/2024	Cash	BUFF ONE BANKING ECHECKING	1723	Elevations Credit Union	To Loan 0041		192.78	To Loan 0041	Credit Card Payment		
+11/30/2024	11/30/2024	Cash	360 Performance Savings	3437	Capital One	Monthly Interest Paid		-2.11	Monthly Interest Paid	Income		
+11/30/2024	11/30/2024	Credit Card	Prime Store Card	753	Amazon.com Store Card	ONLINE PYMT-THANK YOU		-61.65	ONLINE PYMT-THANK YOU ATLANTA GA	Credit Card Payment		
+11/30/2024	11/30/2024	Credit Card	Quicksilver	6426	Capital One	Steam Games		2.65	STEAMGAMES.COM 4259522	Cash Fun Money		
+11/30/2024	11/30/2024	Credit Card	Quicksilver	6426	Capital One	CAPITAL ONE ONLINE PYMT AuthDate 30-N ov		-897.76	CAPITAL ONE ONLINE PYMT AuthDate 30-N ov	Credit Card Payment		
