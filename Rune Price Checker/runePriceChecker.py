@@ -1,6 +1,6 @@
 from runeClass import *
 
-urlAirRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=a&page=1'
+urlAirRune = 'https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=a&page=1'
 urlBodyRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=b&page=1'
 urlEarthRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=e&page=1'
 urlFireRune = 'http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=32&alpha=f&page=1'
@@ -36,7 +36,7 @@ def standard_price_check():
         print("Buy Death Rune")
     print("")
 
-def wildnerness_price_check():
+def wilderness_price_check():
     print("")
     if fireRune.currentPrice > 17:
         print("Buy Fire Runes")
@@ -93,7 +93,7 @@ print('13/14')
 soulRune = Runes(urlSoulRune, 'Soul rune')
 print('14/14')
 
-# airRune.showValues()
+airRune.showValues()
 # bodyRune.showValues()
 # earthRune.showValues()
 # fireRune.showValues()
@@ -146,7 +146,7 @@ print(
     "Teleport to the Edgeville lodestone, bank all your items, and run north to the Mage of Zamorak's shop Battle Runes, located in level 5 Wilderness\n")
 
 # 10 Wilderness! D=
-wildnerness_price_check()
+wilderness_price_check()
 print(
     "Return to Edgeville and bank all your items. Make sure you have a knife in your tool belt or are carrying a slashing weapon. Head south to the ruined building in Edgeville and travel to level 51 Wilderness by pulling the Edgeville teleport lever. Exit the Deserted Keep you find yourself in by cutting through the cobweb blocking the way north, and head west to a small ruined building north of the Mage Arena. Cut through the two cobwebs blocking the way and pull the lever to be transported to the small cave where Lundail runs his Arena-side Rune Shop. This is a safe area that isn't considered Wilderness and also contains a bank, so you may purchase the runes from the shop in peace.\n")
 print("Go make some bank!")
